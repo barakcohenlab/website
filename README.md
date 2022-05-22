@@ -1,0 +1,1 @@
+This repository contains the files and content for the Cohen Lab website. The website is built as a static site generated from the content in this repository using [Zola](https://getzola.org). Currently, the site is under construction, but ultimately, tagging a new release will automatically trigger a website build to the `gh-pages` branch.
