@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% import "macros.html" as macros %}
+{% block content %}
+<div class="page-controls">
+    <div></div>
+    <div class="links">
+        <a href="/posts">[all posts]</a>
+    </div>
+</div>
+{{ macros::post(page=page) }}
+{% endblock content %}

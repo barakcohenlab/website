@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% import "macros.html" as macros %}
+{% block content %}
+<div class="page-controls">
+    <h1>Posts by <span class="author">{{ term.name }}</span></h1>
+    <div class="links">
+        <a href="/authors">[all authors]</a>
+        <a href="/posts">[all posts]</a>
+    </div>
+</div>
+{{ macros::navigationcontrols(paginator=paginator) }}
+{% for page in paginator.pages %}
+    {{ macros::post(page=page) }}
+{% endfor %}
+{{ macros::navigationcontrols(paginator=paginator) }}
+{% endblock content %}

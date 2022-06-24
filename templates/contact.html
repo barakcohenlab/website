@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="twocolumn">
+    <iframe style="border: 0; display: block; width: 400px; min-width: 200px; min-height: 400px; flex-grow: 1;" loading="lazy" allowfullscreen referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyA4DdSYhPvtJwB9j0Vd1wuR8kybCdHbXiw&q=Couch+Biomedical+Research+Building+4515+MCKINLEY+AVE+SAINT+LOUIS,+MO+63110"></iframe>
+    <div class="section" style="flex-grow: 1;">
+        {{ page.content | safe }}
+    </div>
+</div>
+{% endblock content %}

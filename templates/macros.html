@@ -1,0 +1,98 @@
+{% macro post(page) %}
+<div class="section">
+    <div class="details">
+        <span class="date"><a href="{{ page.path }}">{{ page.date }}</a></span>
+        <div class="tokens">
+        {% if page.taxonomies.authors %}
+            {% for author in page.taxonomies.authors %}
+                <a href="{{ get_taxonomy_url(name=author, kind="authors") }}" class="author">{{ author }}</a>
+            {% endfor %}
+        {% endif %}
+        {% if page.taxonomies.tags %}
+            {% for tag in page.taxonomies.tags %}
+                <a href="{{ get_taxonomy_url(name=tag, kind="tags") }}" class="tag">#{{ tag }}</a>
+            {% endfor %}
+        {% endif %}
+        </div>
+    </div>
+    <div class="main">
+        <h2>{{ page.title }}</h2>
+        {% set num_images = 0 %}
+        {% set num_attachments = 0 %}
+        {% for asset in page.assets %}
+            {% if asset is matching("[.](jpg|png)$") %}
+                {% set_global num_images = num_images + 1 %}
+            {% else %}
+                {% set_global num_attachments = num_attachments + 1 %}
+            {% endif %}
+        {% endfor %}
+        {% if num_images > 0 %}
+            <div class="gallery">
+            {% for asset in page.assets %}
+                {% if asset is matching("[.](jpg|png)$") %}
+                    {% if num_images == 1 %}
+                        {% set width = 500 %}
+                        {% set height = 500 %}
+                    {% elif num_images == 2 %}
+                        {% set width = 300 %}
+                        {% set height = 400 %}
+                    {% else %}
+                        {% set width = 220 %}
+                        {% set height = 300 %}
+                    {% endif %}
+                    {% set image = resize_image(path=asset, width=width * 2, height=height * 2, op="fit", format="jpeg", quality=90) %}
+                    {% set asset_filename = asset | split(pat="/") | last %}
+                    {% set asset_path = page.path ~ asset_filename %}
+                    <a href="{{ asset_path }}" target="_blank" data-lightbox="{{ page.path }}">
+                        <img style="width: {{ image.width / 2 }}px; height: {{ image.height / 2 }}px;" src="{{ image.url }}">
+                    </a>
+                {% endif %}
+            {% endfor %}
+            </div>
+        {% endif %}
+        {{ page.content | safe }}
+        {% if num_attachments > 0 %}
+            <hr>
+            <h3>Attachments</h3>
+            <ul class="attachments">
+            {% for asset in page.assets %}
+                {% if asset is not matching("[.](jpg|png)$") %}
+                    {% set asset_filename = asset | split(pat="/") | last %}
+                    {% set asset_path = page.path ~ asset_filename %}
+                    <li>
+                        <a href="{{ asset_path }}" download>{{ asset | split(pat="/") | last }}</a>
+                    </li>
+                {% endif %}
+            {% endfor %}
+            </ul>
+        {% endif %}
+    </div>
+</div>
+{% endmacro post %}
+
+{% macro navigationcontrols(paginator) %}
+<div class="navigation-controls">
+    <div style="min-width: 50px;">
+    {% if paginator.next %}
+    <a href="{{ paginator.next }}">Older</a>
+    {% endif %}
+    </div>
+    <div>Page {{ paginator.current_index }}/{{ paginator.number_pagers }}</div>
+    <div style="min-width: 50px;">
+    {% if paginator.previous %}
+    <a href="{{ paginator.previous }}">Newer</a>
+    {% endif %}
+    </div>
+</div>
+{% endmacro navigationcontrols %}
+
+{% macro termlist(terms, term_class, term_prefix="") %}
+<ul class="term-list">
+{% for term in terms %}
+    <li>
+        <a class="{{ term_class }}" href="{{ term.path }}">{% if term_prefix %}{{ term_prefix }}{% endif %}{{ term.name }}</a>
+        <span style="margin-left: 2px;">({{ term.pages | length }} posts)</span>
+    </li>
+{% endfor %}
+</ul>
+{% endmacro termlist %}

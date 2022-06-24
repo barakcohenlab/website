@@ -1,0 +1,105 @@
+date_discussed,title,authors,journal,publication_year,doi
+5/18/22,"Phenotypic variability, not noise, accounts for most of the cell-to-cell heterogeneity in IFN-gamma and oncostatin M signaling responses",Topolewski P et al.,Science Signaling,2022,10.1126/scisignal.abd9303
+4/19/22,Sequence specificity in DNA binding is mainly governed by association,Marklund E et al.,Science,2022,10.1126/science.abg7427
+4/13/22,Cooperative binding between distant transcription factors is a hallmark of active enhancers,Rao S et al.,Molecular Cell,2021,10.1016/j.molcel.2021.02.014
+4/6/22,Mechanism of life-long maintenance of neuron identity despite molecular fluctuations,Traets JJH et al.,eLife,2021,10.7554/eLife.66955
+3/23/22,Massively parallel phenotyping of coding variants in cancer with Perturb-seq,Ursu O et al.,Nature Biotechnology,2022,10.1038/s41587-021-01160-7
+2/23/22,Genome surveillance by HUSH-mediated silencing of intronless mobile elements,Seczynska M et al.,Nature,2022,10.1038/s41586-021-04228-1
+2/2/22,Mutational sources of trans-regulatory variation affecting gene expression in Saccharomyces cerevisiae,Duveau F et al.,eLife,2021,10.7554/eLife.67806
+1/26/22,Dynamics of epigenetic regulation at the single-cell level,Bintu L et al.,Science,2016,10.1126/science.aab2956
+12/8/21,Cardiac cell type-specific gene regulatory programs and disease risk association,Hocker JD et al.,Science Advances,2021,10.1126/sciadv.abf1444
+11/10/21,"Building regulatory landscapes: enhancer recruits cohesin to create contact domains, engage CTCF sites and activate distant genes",Rinzema NJ et al.,Biorxiv Preprint,2021,10.1101/2021.10.05.463209
+11/3/21,DeepSTARR predicts enhancer activity from DNA sequence and enables the de novo design of enhancers,de Almeida BP et al.,Biorxiv Preprint,2021,10.1101/2021.10.05.463203
+10/27/21,An atlas of gene regulatory elements in adult mouse cerebrum,Li YE et al.,Nature,2021,10.1038/s41586-021-03604-1
+10/20/21,An intrinsically disordered region-mediated confinement state contributes to the dynamics and function of transcription factors,Garcia DA et al.,Molecular Cell,2021,10.1016/j.molcel.2021.01.013
+10/6/21,Live imaging and biophysical modeling support a button-based mechanism of somatic homolog pairing in Drosophila,Child MB et al.,eLife,2021,10.7554/eLife.64412
+9/29/21,Dynamic imaging of nascent RNA reveals general principles of transcription dynamics and stochastic splice site selection,Wan YH et al.,Cell,2021,10.1016/j.cell.2021.04.012
+9/8/21,Competition for DNA binding between paralogous transcription factors determines their genomic occupancy and regulatory functions,Zhang YN et al.,Genome Research,2021,10.1101/gr.275145.120
+9/1/21,A DNA repair pathway can regulate transcriptional noise to promote cell fate transitions,Desai RV et al.,Science,2021,10.1126/science.abc6506
+8/25/21,"CTCF chromatin residence time controls three-dimensional genome organization, gene expression and DNA methylation in pluripotent cells",Soochit W et al.,Nature Cell Biology,2021,10.1038/s41556-021-00722-w
+8/18/21,Augmenting and directing long-range CRISPR-mediated activation in human cells,Tak YE et al.,Nature Methods,2021,10.1038/s41592-021-01224-1
+7/21/21,Gene regulation gravitates toward either addition or multiplication when combining the effects of two signals,Sanford EM et al.,eLife,2020,10.7554/eLife.59388
+7/14/21,Molecular Co-occupancy Identifies Transcription Factor Binding Cooperativity In Vivo,Sonmezer C et al.,Molecular Cell,2021,10.1016/j.molcel.2020.11.015
+7/7/21,High-Throughput Discovery and Characterization of Human Transcriptional Effectors,Tycko J et al.,Cell,2020,10.1016/j.cell.2020.11.024
+6/30/21,A comprehensive library of human transcription factors for cell fate engineering,Ng AHM et al.,Nature Biotechnology,2021,10.1038/s41587-020-0742-6
+6/23/21,"Single-gene imaging links genome topology, promoter-enhancer communication and transcription control",Li JR et al.,Nature Structural & Molecular Biology,2020,10.1038/s41594-020-0493-6
+5/12/21,Massively parallel assessment of human variants with base editor screens,Hanna RE et al.,Cell,2021,10.1016/j.cell.2021.01.012
+5/5/21,Thermodynamic modeling of genome-wide nucleosome depleted regions in yeast,"Kharerin H, Bai L",PLOS Computational Biology,2021,10.1371/journal.pcbi.1008560
+4/28/21,Integrated spatial genomics reveals global architecture of single nuclei,Takei Y et al.,Nature,2021,10.1038/s41586-020-03126-2
+4/21/21,Variability within rare cell states enables multiple paths toward drug resistance,Emert BL et al.,Nature Biotechnology,2021,10.1038/s41587-021-00837-3
+4/14/21,Evidence for additive and synergistic action of mammalian enhancers during cell fate determination,Choi J et al.,eLife,2021,10.7554/eLife.65381
+3/3/21,RNA-Mediated Feedback Control of Transcriptional Condensates,Henninger JE et al.,Cell,2021,10.1016/j.cell.2020.11.030
+2/24/21,Temporal dissection of an enhancer cluster reveals distinct temporal and functional contributions of individual elements,Thomas HF et al.,Molecular Cell,2021,10.1016/j.molcel.2020.12.047
+2/17/21,Interaction of the pioneer transcription factor GATA3 with nucleosomes,Tanaka H et al.,Nature Communications,2020,10.1038/s41467-020-17959-y
+2/10/21,Somatic mutation distributions in cancer genomes vary with three-dimensional chromatin structure,Akdemir KC et al.,Nature Genetics,2020,10.1038/s41588-020-0708-0
+2/3/21,Phase separation provides a mechanism to reduce noise in cells,Klosin A et al.,Science,2020,10.1126/science.aav6691
+1/20/21,Generalizing RNA velocity to transient cell states through dynamical modeling,Bergen V et al.,Nature Biotechnology,2020,10.1038/s41587-020-0591-3
+1/6/21,A human cell atlas of fetal chromatin accessibility,Domcke S et al.,Science,2020,10.1126/science.aba7612
+12/16/20,Deep conservation of the enhancer regulatory code in animals,Wong ES et al.,Science,2020,10.1126/science.aax8137
+12/9/20,Phase-Separated Transcriptional Condensates Accelerate Target-Search Process Revealed by Live-Cell Single-Molecule Imaging,Kent S et al.,Cell Reports,2020,10.1016/j.celrep.2020.108248
+11/11/20,Nucleosome-Driven Transcription Factor Binding and Gene Regulation,Ballare C et al.,Molecular Cell,2013,10.1016/j.molcel.2012.10.019
+11/4/20,"Deciphering the regulatory genome of Escherichia coli, one hundred promoters at a time",Ireland WT et al.,eLife,2020,10.7554/eLife.55308
+10/21/20,"Multiplexed measurement of variant abundance and activity reveals VKOR topology, active site and human variant impact",Chiasson MA et al.,eLife,2020,10.7554/eLife.58026
+10/14/20,Three Rules Explain Transgenerational Small RNA Inheritance in C. elegans,Houri-Zeevi L et al.,Cell,2020,10.1016/j.cell.2020.07.022
+10/7/20,Optogenetic Control Reveals Differential Promoter Interpretation of Transcription Factor Nuclear Translocation Dynamics,Chen SY et al.,Cell Systems,2020,10.1016/j.cels.2020.08.009
+9/23/20,Selective Mediator dependence of cell-type-specifying transcription,Jaeger MG et al.,Nature Genetics,2020,10.1038/s41588-020-0635-0
+9/16/20,Predictive features of gene expression variation reveal mechanistic link with differential expression,Sigalova OM et al.,Molecular Systems Biology,2020,10.15252/msb.20209539
+9/9/20,Modulation of the Promoter Activation Rate Dictates the Transcriptional Response to Graded BMP Signaling Levels in the Drosophila Embryo,Hoppe C et al.,Developmental Cell,2020,10.1016/j.devcel.2020.07.007
+9/2/20,Quantifying the Central Dogma in the p53 Pathway in Live Single Cells,Hafner A et al.,Cell Systems,2020,10.1016/j.cels.2020.05.001
+8/26/20,Occupancy maps of 208 chromatin-associated proteins in one human cell type,Partridge EC et al.,Nature,2020,10.1038/s41586-020-2023-4
+8/12/20,RNA Pol II Length and Disorder Enable Cooperative Scaling of Transcriptional Bursting,Quintero-Cadena P et al.,Molecular Cell,2020,10.1016/j.molcel.2020.05.030
+8/5/20,Spt5-mediated enhancer transcription directly couples enhancer activation with physical promoter interaction,Fitz J et al.,Nature Genetics,2020,10.1038/s41588-020-0605-6
+7/29/20,RNA is essential for PRC2 chromatin occupancy and function in human pluripotent stem cells,Long YC et al.,Nature Genetics,2020,10.1038/s41588-020-0662-x
+7/22/20,Dissecting the regulatory activity and sequence content of loci with exceptional numbers of transcription factor associations,Ramaker RC et al.,Genome Research,2020,10.1101/gr.260463.119
+7/15/20,Single-molecule imaging of transcription dynamics in somatic stem cells,Wheat JC et al.,Nature,2020,10.1038/s41586-020-2432-4
+7/1/20,Titrating gene expression using libraries of systematically attenuated CRISPR guide RNAs,Jost M et al.,Nature Biotechnology,2020,10.1038/s41587-019-0387-5
+6/24/20,Activity-by-contact model of enhancer-promoter regulation from thousands of CRISPR perturbations,Fulco CP et al.,Nature Genetics,2019,10.1038/s41588-019-0538-0
+6/17/20,Controlling gene activation by enhancers through a drug-inducible topological insulator,Tsujimura T et al.,eLife,2020,10.7554/eLife.47980
+5/27/20,Natural variation in stochastic photoreceptor specification and color preference in Drosophila,Anderson C et al.,eLife,2017,10.7554/eLife.29593
+5/20/20,Action at a distance in transcriptional regulation,Bialek W et al.,Arxiv Preprint,2019,10.48550/arXiv.1912.08579
+5/13/20,Transcription Dynamics Regulate Poly(A) Tails and Expression of the RNA Degradation Machinery to Balance mRNA Levels,Slobodin B et al.,Molecular Cell,2020,10.1016/j.molcel.2020.03.022
+5/6/20,Inhibition of transcription leads to rewiring of locus-specific chromatin proteomes,Poramba-Liyanage DW et al.,Genome Research,2020,10.1101/gr.256255.119
+4/15/20,Learning causal networks using inducible transcription factors and transcriptome-wide time series,Hackett SR et al.,Molecular Systems Biology,2020,10.15252/msb.20199174
+4/8/20,Pervasive functional translation of noncanonical human open reading frames,Chen J et al.,Science,2020,10.1126/science.aay0262
+4/1/20,Visualizing the Role of Boundary Elements in Enhancer-Promoter Communication,Yokoshi M et al.,Molecular Cell,2020,10.1016/j.molcel.2020.02.007
+3/4/20,Single-Cell Proteomics Reveal that Quantitative Changes in Co-expressed Lineage-Specific Transcription Factors Determine Cell Fate,Palii CG et al.,Cell Stem Cell,2019,10.1016/j.stem.2019.02.006
+2/19/20,Differential context-specific impact of individual core promoter elements on transcriptional dynamics,Hendy O et al.,Molecular Biology Of The Cell,2017,10.1091/mbc.E17-06-0408
+2/5/20,Heterogeneous Ribosomes Preferentially Translate Distinct Subpools of mRNAs Genome-wide,Shi Z et al.,Molecular Cell,2017,10.1016/j.molcel.2017.05.021
+1/29/20,DNA loop extrusion by human cohesin,Davidson IF et al.,Science,2019,10.1126/science.aaz3418
+1/22/20,A pooled single-cell genetic screen identifies regulatory checkpoints in the continuum of the epithelial-to-mesenchymal transition,McFaline-Figueroa JL et al.,Nature Genetics,2019,10.1038/s41588-019-0489-5
+1/15/20,Optical Pooled Screens in Human Cells,Feldman D et al.,Cell,2019,10.1016/j.cell.2019.09.016
+12/11/19,Organization of Chromatin by Intrinsic and Regulated Phase Separation,Gibson BA et al.,Cell,2019,10.1016/j.cell.2019.08.037
+12/4/19,Characterization of Button Loci that Promote Homologous Chromosome Pairing and Cell-Type-Specific Interchromosomal Gene Regulation,Viets K et al.,Developmental Cell,2019,10.1016/j.devcel.2019.09.007
+11/20/19,Transcriptional Burst Initiation and Polymerase Pause Release Are Key Control Points of Transcriptional Regulation,Bartman CR et al.,Molecular Cell,2019,10.1016/j.molcel.2018.11.004
+11/13/19,Stochastic antagonism between two proteins governs a bacterial cell fate switch,Lord ND et al.,Science,2019,10.1126/science.aaw4506
+11/6/19,Nucleosomal DNA Dynamics Mediate Oct4 Pioneer Factor Binding,Huertas J et al.,Biophysical Journal,2020,10.1016/j.bpj.2019.12.038
+10/2/19,Visualization of Transvection in Living Drosophila Embryos,Lim B et al.,Molecular Cell,2018,10.1016/j.molcel.2018.02.029
+9/25/19,Decreased Enhancer-Promoter Proximity Accompanying Enhancer Activation,Benabdallah NS et al.,Molecular Cell,2019,10.1016/j.molcel.2019.07.038
+8/28/19,Multi-enhancer transcriptional hubs confer phenotypic robustness,Tsai A et al.,eLife,2019,10.7554/eLife.45325
+8/21/19,The Ground State and Evolution of Promoter Region Directionality,Jin Y et al.,Cell,2017,10.1016/j.cell.2017.07.006
+8/7/19,Species-specific transcription in mice carrying human chromosome 21,Wilson MD et al.,Science,2008,10.1126/science.1160930
+7/31/19,Highly rearranged chromosomes reveal uncoupling between genome topology and gene expression,Ghavi-Helm Y et al.,Nature Genetics,2019,10.1038/s41588-019-0462-3
+7/17/19,Determining protein structures using deep mutagenesis,"Schmiedel JM, Lehner B",Nature Genetics,2019,10.1038/s41588-019-0431-x
+7/10/19,Heterochromatin drives compartmentalization of inverted and conventional nuclei,Falk M et al.,Nature,2019,10.1038/s41586-019-1275-3
+7/3/19,Preformed chromatin topology assists transcriptional robustness of Shh during limb development,Paliou C et al.,PNAS,2019,10.1073/pnas.1900672116
+6/19/19,Transcriptional cofactors display specificity for distinct types of core promoters,Haberle V et al.,Nature,2019,10.1038/s41586-019-1210-7
+6/12/19,Evidence for DNA-mediated nuclear compartmentalization distinct from phase separation,McSwiggen DT et al.,eLife,2019,10.7554/eLife.47098
+5/29/19,The Drosophila Pioneer Factor Zelda Modulates the Nuclear Microenvironment of a Dorsal Target Enhancer to Potentiate Transcriptional Output,Yamada S et al.,Current Biology,2019,10.1016/j.cub.2019.03.019
+5/22/19,Complex signal processing in synthetic gene circuits using cooperative regulatory assemblies,Bashor CJ et al.,Science,2019,10.1126/science.aau8287
+7/18/18,Modulation of transcriptional burst frequency by histone acetylation,Nicolas D et al.,PNAS,2018,10.1073/pnas.1722330115
+6/28/18,Position-effect protection and enhancer blocking by the chicken beta-globin insulator are separable activities,Recillas-Targa F et al.,PNAS,2002,10.1073/pnas.102179399
+6/20/18,The genetic landscape of a physical interaction,"Diss G, Lehner B",eLife,2018,10.7554/eLife.32472
+6/13/18,Divergence in DNA Specificity among Paralogous Transcription Factors Contributes to Their Differential In Vivo Binding,Shen N et al.,Cell Systems,2018,10.1016/j.cels.2018.02.009
+6/6/18,Enhancer redundancy provides phenotypic robustness in mammalian development,Osterwalder M et al.,Nature,2018,10.1038/nature25461
+5/9/18,A regulatory circuit of two lncRNAs and a master regulator directs cell fate in yeast,Moretto F et al.,Nature Communications,2018,10.1038/s41467-018-03213-z
+5/2/18,Conserved noncoding transcription and core promoter regulatory code in early Drosophila development,"Batut PJ, Gingeras TR",eLife,2017,10.7554/eLife.29005
+4/25/18,CTCF-Mediated Enhancer-Promoter Interaction Is a Critical Regulator of Cell-to-Cell Variation of Gene Expression,Ren G et al.,Molecular Cell,2017,10.1016/j.molcel.2017.08.026
+1/31/18,Clustering of Drosophila housekeeping promoters facilitates their expression,Corrales M et al.,Genome Research,2017,10.1101/gr.211433.116
+1/24/18,Dissecting Nucleosome Function with a Comprehensive Histone H2A and H2B Mutant Library,Jiang SY et al.,G3-Genes Genomes Genetics,2017,10.1534/g3.117.300252
+12/13/17,Genome-wide analysis reveals positional-nucleosome-oriented binding pattern of pioneer factor FOXA1,Ye ZQ et al.,Nucleic Acids Research,2016,10.1093/nar/gkw659
+2/10/16,"Genetic Variation, Not Cell Type of Origin, Underlies the Majority of Identifiable Regulatory Differences in iPSCs",Burrows CK et al.,PLOS Genetics,2016,10.1371/journal.pgen.1005793
+2/3/16,Intersecting transcription networks constrain gene regulatory evolution,Sorrells TR et al.,Nature,2015,10.1038/nature14613
+1/27/16,Digital signaling decouples activation probability and population heterogeneity,Kellogg RA et al.,eLife,2015,10.7554/eLife.08931
+1/20/16,Competition between binding sites determines gene expression at low transcription factor concentrations,van Dijk D et al.,Biorxiv Preprint,2016,10.1101/033753
+12/16/15,DNA-dependent formation of transcription factor pairs alters their binding specificity,Jolma A et al.,Nature,2015,10.1038/nature15518
+12/9/15,Transcriptional regulators form diverse groups with context-dependent regulatory functions,Stampfel G et al.,Nature,2015,10.1038/nature15545

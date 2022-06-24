@@ -1,0 +1,4 @@
+{% set image = resize_image(path=path, width=width * 2, op="fit_width", format="jpeg", quality=90) %}
+{% if not no_link %}<a href="{{ get_url(path=path) }}" target="_blank">{% endif %}
+<img style="width: {{ width }}px; object-fit: contain;" src="{{ image.url }}">
+{% if not no_link %}</a>{% endif %}

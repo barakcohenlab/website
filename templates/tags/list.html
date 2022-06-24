@@ -1,0 +1,6 @@
+{% extends "base.html" %}
+{% import "macros.html" as macros %}
+{% block content %}
+<h1> Post Tags </h1>
+{{ macros::termlist(terms=terms, term_class="tag", term_prefix="#") }}
+{% endblock content %}

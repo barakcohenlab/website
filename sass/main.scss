@@ -1,0 +1,402 @@
+$background-color: #FAFAFA;
+$background-color-dark: #101010;
+$text-color: #000000;
+$text-color-dark: #FFFFFF;
+$link-color: #6665DD;
+$link-color-hover: #FB3640;
+$link-color-active: $link-color-hover;
+$link-color-selected: $link-color-hover;
+$author-token-color: #FCBF49;
+$tag-token-color: #6CCFF6;
+
+$loading-pattern: repeating-linear-gradient(45deg, lighten($background-color, 1%), lighten($background-color, 1%) 4px, darken($background-color, 1%) 4px, darken($background-color, 1%) 8px);
+$loading-pattern-dark: repeating-linear-gradient(45deg, lighten($background-color-dark, 1%), lighten($background-color-dark, 1%) 4px, darken($background-color-dark, 1%) 4px, darken($background-color-dark, 1%) 8px);
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+body {
+    background: $background-color;
+    color: $text-color;
+    font-family: 'Inter', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+    font-size: 14px;
+    margin: 0;
+    padding: 0 20px 0 20px;
+}
+
+.page {
+    max-width: 800px;
+    margin: 20px auto 20px auto;
+    line-height: 1.5;
+}
+
+a {
+    color: $link-color;
+    text-decoration-line: none;
+    text-decoration-color: $link-color;
+    text-decoration-style: solid;
+    text-decoration-thickness: 0px;
+    text-decoration-skip-ink: auto;
+    text-underline-offset: 1px;
+}
+
+a:hover, a:focus {
+    color: $link-color-hover;
+    text-decoration-line: underline;
+    text-decoration-color: $link-color-hover;
+    text-decoration-thickness: 1px;
+}
+
+a:active {
+    color: $link-color-active;
+    text-decoration-line: underline;
+    text-decoration-color: $link-color-active;
+    text-decoration-thickness: 3px;
+}
+
+a.selected {
+    color: $link-color-selected;
+    text-decoration-line: underline;
+    text-decoration-color: $link-color-selected;
+    text-decoration-thickness: 2px;
+}
+
+a.selected:hover, a.selected:focus {
+    text-decoration-thickness: 2px;
+}
+
+header {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 20px;
+    margin: 0 0 10px 0;
+
+    h1 {
+        font-size: 1.5em;
+        font-weight: 800;
+        white-space: nowrap;
+        margin: 0;
+        padding: 0;
+
+        a {
+            color: inherit;
+        }
+    }
+
+    nav {
+        ul {
+            display: flex;
+            flex-flow: row wrap;
+            align-items: center;
+            justify-content: flex-start;
+            row-gap: 4px;
+            column-gap: 10px;
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+
+            li {
+                display: inline-block;
+
+                a {
+                    display: inline-block;
+                }
+            }
+        }
+    }
+}
+
+footer {
+    font-size: 10px;
+    color: lighten($text-color, 50%);
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0 20px 0;
+    padding: 10px 0 0 0;
+
+    a {
+        color: inherit;
+    }
+}
+
+h1 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+h4 {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+h5, h6 {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.twocolumn {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+@mixin sectionContentPadding($top, $bottom) {
+    padding: $top 20px $bottom 20px;
+}
+
+.section {
+    background: lighten($background-color, 10%);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+
+    h1, h2, h3, h4, h5, h6, p {
+        @include sectionContentPadding($top: 0, $bottom: 0)
+    }
+
+    .details {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        align-items: center;
+        row-gap: 2px;
+        column-gap: 4px;
+        @include sectionContentPadding($top: 5px, $bottom: 5px)
+        border-bottom: 1px solid #d0d0d0;
+        background: darken($background-color, 5%);
+        font-size: 12px;
+
+        .date {
+            font-size: larger;
+            color: lighten($text-color, 20%);
+        }
+
+        .tokens {
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: flex-start;
+            align-items: center;
+            row-gap: 2px;
+            column-gap: 4px;
+        }
+    }
+}
+
+.section + .section {
+    margin-top: 20px;
+}
+
+.gallery {
+    @include sectionContentPadding($top: 0, $bottom: 0)
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+
+    img {
+        object-fit: cover;
+        min-width: 100px;
+        background: $loading-pattern;
+    }
+}
+
+.page-controls {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 10px;
+
+    .links {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: flex-start;
+        align-items: center;
+        row-gap: 8px;
+        column-gap: 6px;
+    }
+
+    a {
+        font-size: 12px;
+    }
+}
+
+.navigation-controls {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    line-height: 1.5;
+    margin: 10px 0 10px 0;
+}
+
+ul.attachments {
+    list-style: none;
+    @include sectionContentPadding($top: 0, $bottom: 0);
+
+    li {
+        word-wrap: break-word;
+    }
+
+    li::before {
+        content: "📄 "
+    }
+}
+
+ul.term-list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+
+    li {
+        a {
+            padding: 4px 8 4px 8;
+            display: inline-block;
+        }
+    }
+
+    li:not(:last-child) {
+        margin-bottom: 5px;
+    }
+}
+
+hr {
+    margin: 0;
+    padding: 0;
+    border: none;
+    border-bottom: 1px dashed #d0d0d0;
+}
+
+@mixin token($backgroundColor, $textColor) {
+    padding: 2px;
+    border-radius: 4px;
+    padding: 0 8px 0;
+    color: $text-color;
+    background-color: $backgroundColor;
+}
+
+.author {
+    @include token($backgroundColor: $author-token-color, $textColor: $text-color)
+}
+
+.tag {
+    @include token($backgroundColor: $tag-token-color, $textColor: $text-color)
+}
+
+a.author:hover, a.author:focus, a.tag:hover, a.tag:focus {
+    color: $text-color;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+}
+
+a.author:active {
+    color: $text-color;
+    background-color: darken($author-token-color, 20%);
+    text-decoration: none;
+}
+
+a.tag:active {
+    color: $text-color;
+    background-color: darken($tag-token-color, 20%);
+    text-decoration: none;
+}
+
+.people-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: start;
+}
+
+img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+.person {
+    display: block;
+    padding: 10px;
+
+    img {
+        margin-bottom: 5px;
+    }
+
+    .name {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .role {
+        font-size: 10px;
+        color: lighten($text-color, 50%);
+        text-align: center;
+    }
+}
+
+#lightbox {
+    padding: 0;
+    border: none;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+    max-width: 1000px;
+    background: $loading-pattern;
+
+    img {
+        width: 100%;
+    }
+}
+
+#lightbox::backdrop {
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(4px);
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background: $background-color-dark;
+        color: $text-color-dark;
+    }
+
+    .section {
+        background: lighten($background-color-dark, 10%);
+        box-shadow: 0 5px 10px rgba(128, 128, 128, 0.1);
+
+        .details {
+            background: lighten($background-color-dark, 5%);
+            border-bottom: 1px solid #707070;
+        }
+    }
+
+    .gallery {
+        img {
+            background: $loading-pattern-dark;
+        }
+    }
+
+    #lightbox {
+        background: $loading-pattern-dark;
+    }
+
+    hr {
+        border-bottom-color: #707070;
+    }
+}

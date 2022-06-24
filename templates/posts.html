@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% import "macros.html" as macros %}
+{% block content %}
+<h1>Posts</h1>
+{{ macros::navigationcontrols(paginator=paginator) }}
+{% for page in paginator.pages %}
+    {{ macros::post(page=page) }}
+{% endfor %}
+{{ macros::navigationcontrols(paginator=paginator) }}
+{% endblock content %}
