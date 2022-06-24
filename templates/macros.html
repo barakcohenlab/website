@@ -1,7 +1,7 @@
 {% macro post(page) %}
 <div class="section">
     <div class="details">
-        <span class="date"><a href="{{ page.path }}">{{ page.date }}</a></span>
+        <span class="date"><a href="{{ get_url(path=page.path) }}">{{ page.date }}</a></span>
         <div class="tokens">
         {% if page.taxonomies.authors %}
             {% for author in page.taxonomies.authors %}
@@ -43,7 +43,7 @@
                     {% set image = resize_image(path=asset, width=width * 2, height=height * 2, op="fit", format="jpeg", quality=90) %}
                     {% set asset_filename = asset | split(pat="/") | last %}
                     {% set asset_path = page.path ~ asset_filename %}
-                    <a href="{{ asset_path }}" target="_blank" data-lightbox="{{ page.path }}">
+                    <a href="{{ get_url(path=asset_path) }}" target="_blank">
                         <img style="width: {{ image.width / 2 }}px; height: {{ image.height / 2 }}px;" src="{{ image.url }}">
                     </a>
                 {% endif %}
@@ -60,7 +60,7 @@
                     {% set asset_filename = asset | split(pat="/") | last %}
                     {% set asset_path = page.path ~ asset_filename %}
                     <li>
-                        <a href="{{ asset_path }}" download>{{ asset | split(pat="/") | last }}</a>
+                        <a href="{{ get_url(path=asset_path) }}" download>{{ asset | split(pat="/") | last }}</a>
                     </li>
                 {% endif %}
             {% endfor %}
@@ -90,7 +90,7 @@
 <ul class="term-list">
 {% for term in terms %}
     <li>
-        <a class="{{ term_class }}" href="{{ term.path }}">{% if term_prefix %}{{ term_prefix }}{% endif %}{{ term.name }}</a>
+        <a class="{{ term_class }}" href="{{ get_url(path=term.path) }}">{% if term_prefix %}{{ term_prefix }}{% endif %}{{ term.name }}</a>
         <span style="margin-left: 2px;">({{ term.pages | length }} posts)</span>
     </li>
 {% endfor %}

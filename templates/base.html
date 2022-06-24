@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>{% block title %}{{ config.title }}{% if page.ancestors %}{% for ancestor_path in page.ancestors %}{% set ancestor = get_section(path=ancestor_path) %}/{{ ancestor.title }}{% endfor %}{% endif %}{% if page.title %}/{{ page.title }}{% endif %}{% endblock title %}</title>
+        <title>{% block title %}{{ config.title }}{% if section.title %}/{{ section.title}}{% endif %}{% if page.title %}/{{ page.title }}{% endif %}{% endblock title %}</title>
         <meta name="description" content="{% if section.description %}{{ section.description }}{% else %}{{ config.description }}{% endif %}">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="referrer" content="no-referrer-when-downgrade">
@@ -24,13 +24,13 @@
                 </h1>
                 <nav>
                     <ul>
-                        <li><a{% if current_path and current_path == root_section.path %} class="selected"{% endif %} href="{{ root_section.path }}">Home</a></li>
+                        <li><a{% if current_path and current_path == root_section.path %} class="selected"{% endif %} href="{{ get_url(path=root_section.path) }}">Home</a></li>
                         {% for subsection_path in root_section.subsections %}
                             {% set subsection = get_section(path=subsection_path, metadata_only=true) %}
-                            <li><a{% if current_path and current_path is starting_with(subsection.path) %} class="selected"{% endif %} href="{{ subsection.path }}">{{ subsection.title }}</a></li>
+                            <li><a{% if current_path and current_path is starting_with(subsection.path) %} class="selected"{% endif %} href="{{ get_url(path=subsection.path) }}">{{ subsection.title }}</a></li>
                         {% endfor %}
                         {% for page in root_section.pages %}
-                            <li><a{% if current_path and current_path is starting_with(page.path) %} class="selected"{% endif %} href="{{ page.path }}">{{ page.title }}</a></li>
+                            <li><a{% if current_path and current_path is starting_with(page.path) %} class="selected"{% endif %} href="{{ get_url(path=page.path) }}">{{ page.title }}</a></li>
                         {% endfor %}
                     </ul>
                 </nav>
