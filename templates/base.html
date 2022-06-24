@@ -20,7 +20,7 @@
             <header>
                 {% set root_section = get_section(path="_index.md") %}
                 <h1>
-                    <a href="{{ root_section.path }}">{{ config.title }}</a>
+                    <a href="{{ get_url(path=root_section.path) }}">{{ config.title }}</a>
                 </h1>
                 <nav>
                     <ul>
