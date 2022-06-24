@@ -1,4 +1,4 @@
-base_url = "https://genetics.wustl.edu/bclab"
+base_url = "https://barakcohenlab.github.io/website/"
 compile_sass = true
 build_search_index = false
 title = "Cohen Lab"
