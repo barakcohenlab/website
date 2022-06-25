@@ -58,12 +58,10 @@
                 <nav>
                     <ul>
                         <li><a{% if current_path and current_path == root_section.path %} class="selected"{% endif %} href="{{ get_url(path=root_section.path) }}">Home</a></li>
-                        {% for subsection_path in root_section.subsections %}
-                            {% set subsection = get_section(path=subsection_path, metadata_only=true) %}
-                            <li><a{% if current_path and current_path is starting_with(subsection.path) %} class="selected"{% endif %} href="{{ get_url(path=subsection.path) }}">{{ subsection.title }}</a></li>
-                        {% endfor %}
-                        {% for page in root_section.pages %}
-                            <li><a{% if current_path and current_path is starting_with(page.path) %} class="selected"{% endif %} href="{{ get_url(path=page.path) }}">{{ page.title }}</a></li>
+                        {% for navigation_item in config.extra.navigation_order %}
+                            {% set slugified_path = navigation_item.path | slugify %}
+                            {% set page_url = get_url(path=slugified_path) %}
+                            <li><a{% if current_url and current_url is starting_with(page_url) %} class="selected"{% endif %} href="{{ page_url }}">{{ navigation_item.name }}</a></li>
                         {% endfor %}
                     </ul>
                 </nav>

@@ -19,3 +19,12 @@ external_links_no_referrer = true
 taxonomies = "off"
 
 [extra]
+navigation_order = [
+    { path = "research", name = "Research" },
+    { path = "publications", name = "Publications" },
+    { path = "posts", name = "Posts" },
+    { path = "people", name = "People" },
+    { path = "journal_club", name = "Journal Club" },
+    { path = "resources", name = "Resources" },
+    { path = "contact", name = "Contact" }
+]
