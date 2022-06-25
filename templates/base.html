@@ -3,25 +3,33 @@
     <head>
         <meta charset="utf-8">
         {% set computed_title = config.title %}
-        {% if section.ancestors %}
-            {% set ancestors = section.ancestors %}
-        {% elif page.ancestors %}
-            {% set ancestors = page.ancestors %}
-        {% endif %}
-        {% if ancestors %}
-            {% set count = 0 %}
-            {% for ancestor_path in ancestors %}
-                {% if count != 0 %}
-                    {% set ancestor_section = get_section(path=ancestor_path) %}
-                    {% set_global computed_title = computed_title ~ "/" ~ ancestor_section.title %}
-                {% endif %}
-                {% set_global count = count + 1 %}
-            {% endfor %}
-        {% endif %}
-        {% if section.title %}
-            {% set computed_title = computed_title ~ "/" ~ section.title %}
-        {% elif page.title %}
-            {% set computed_title = computed_title ~ "/" ~ page.title %}
+        {% if section or page %}
+            {% if section.ancestors %}
+                {% set ancestors = section.ancestors %}
+            {% elif page.ancestors %}
+                {% set ancestors = page.ancestors %}
+            {% endif %}
+            {% if ancestors %}
+                {% set count = 0 %}
+                {% for ancestor_path in ancestors %}
+                    {% if count != 0 %}
+                        {% set ancestor_section = get_section(path=ancestor_path) %}
+                        {% set_global computed_title = computed_title ~ "/" ~ ancestor_section.title %}
+                    {% endif %}
+                    {% set_global count = count + 1 %}
+                {% endfor %}
+            {% endif %}
+            {% if section.title %}
+                {% set computed_title = computed_title ~ "/" ~ section.title %}
+            {% elif page.title %}
+                {% set computed_title = computed_title ~ "/" ~ page.title %}
+            {% endif %}
+        {% elif taxonomy %}
+            {% set capitalized_taxonomy = taxonomy.name | capitalize %}
+            {% set computed_title = computed_title ~ "/" ~ capitalized_taxonomy %}
+            {% if term %}
+                {% set computed_title = computed_title ~ "/" ~ term.name %}
+            {% endif %}
         {% endif %}
         <title>{{ computed_title }}</title>
         {% if section.description %}
