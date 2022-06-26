@@ -68,41 +68,31 @@ def make_people_page(source_path: typing.Union[str, pathlib.Path] = "content/peo
             out.write(r"{{ person(" + keys_to_string(person, keys) + ", photo_size=200) }}" + "\n\n")
         out.write(r"""</div>""" + "\n")
 
-PUBLICATIONS_HEADER = """+++
-title = "Publications"
-description = "Papers published by the Cohen Lab"
-+++
-# Publications
+def make_safe(string: str, forbidden_characters: list[str] = [">", "<", ":", "/", "|", "?", "*", "#", "\\", "(", ")", "[", "]"]) -> str:
+    translation_table = str.maketrans("".join(forbidden_characters), "-" * len(forbidden_characters))
+    return string.translate(translation_table)
 
-"""
-PUBLICATIONS_FOOTER = """\\* These authors contributed equally to this work.
-"""
-
-def make_publications_page(source_path: typing.Union[str, pathlib.Path] = "content/publications/publications.csv", output_path: typing.Union[str, pathlib.Path] = "content/publications/index.md", header: str = PUBLICATIONS_HEADER, footer: str = PUBLICATIONS_FOOTER):
+def make_publications_page(source_path: typing.Union[str, pathlib.Path] = "content/publications/publications.csv", output_dir: typing.Union[str, pathlib.Path] = "content/publications"):
     papers = parse_csv(source_path)
 
     papers.sort(key=lambda paper: int(paper["publication_year"]), reverse=True)
 
-    keys = ["title", "authors", "journal", "publication_year", "doi"]
-
-    with open(output_path, "w") as out:
-        out.write(header)
-
-        current_year = None
-        stop_grouping_at = 2005
-        for paper in papers:
-            if int(paper["publication_year"]) >= stop_grouping_at and int(paper["publication_year"]) != current_year:
-                if current_year is not None:
-                    out.write("{% end %}\n\n")
-                current_year = int(paper['publication_year'])
-                if current_year - 1 < stop_grouping_at:
-                    out.write(f"## {current_year} and earlier\n\n")
-                else:
-                    out.write(f"## {current_year}\n\n")
-                out.write("""{% section() %}\n\n""")
-            out.write(r"<p>{{ paper(" + keys_to_string(paper, keys) + r") }}" + "</p>\n\n")
-        out.write("{% end %}\n\n")
-        out.write(footer)
+    for i, paper in enumerate(papers):
+        safe_doi = make_safe(paper["doi"])
+        print(safe_doi)
+        output_path = str(pathlib.Path(output_dir).joinpath(f"pub_{safe_doi}")) + ".md"
+        print(output_path)
+        with open(output_path, "x") as out:
+            out.write("+++\n")
+            out.write(f"title = \"{paper['title']}\"\n")
+            out.write(f"slug = \"{safe_doi}\"\n")
+            out.write(f"weight = {i}\n")
+            out.write("[extra]\n")
+            out.write(f"authors = \"{paper['authors']}\"\n")
+            out.write(f"journal = \"{paper['journal']}\"\n")
+            out.write(f"publication_year = \"{paper['publication_year']}\"\n")
+            out.write(f"doi = \"{paper['doi']}\"\n")
+            out.write("+++\n")
 
 JC_HEADER = """+++
 title = "Journal Club"

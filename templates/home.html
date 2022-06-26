@@ -2,4 +2,29 @@
 
 {% block content %}
 {{ section.content | safe }}
+<div class="twocolumn">
+    <div style="flex: 1 1 0;">
+        <h2>Recent <a href="{{ get_url(path="posts") }}">Posts</a></h2>
+        <table><tbody>
+        {% set posts = get_section(path="posts/_index.md") %}
+        {% for i in [0,1,2,3,4,] %}
+            {% set post = posts.pages[i] %}
+            <tr style="vertical-align: top;">
+                <td><span style="font-weight: 500; white-space: nowrap;">{{ post.date }}</span></td>
+                <td><a href="{{ get_url(path=post.path) }}">{{ post.title }}</a></td>
+            </tr>
+        {% endfor %}
+        </tbody></table>
+    </div>
+    <div style="flex: 1 1 0;">
+        <h2>Recent <a href="{{ get_url(path="publications") }}">Publications</a></h2>
+        {% set publications = get_section(path="publications/_index.md") %}
+        <ul>
+        {% for i in [0,1,2,] %}
+            {% set publication = publications.pages[i] %}
+            <li>"<a rel="noopener" rel="nofollow" rel="noreferrer" target="_blank" href="https://doi.org/{{ publication.extra.doi }}">{{ publication.title }}</a>" in <i>{{ publication.extra.journal }}</i></li>
+        {% endfor %}
+        </ul>
+    </div>
+</div>
 {% endblock content %}

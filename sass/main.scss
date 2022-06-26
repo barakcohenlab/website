@@ -149,11 +149,15 @@ h5, h6 {
     font-weight: 500;
 }
 
+table, tr, td {
+    border: none;
+}
+
 .twocolumn {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     gap: 20px;
 }
 

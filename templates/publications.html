@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% import "macros.html" as macros %}
+{% block content %}
+{{ section.content | safe }}
+{% set current_year = "" %}
+{% for page in section.pages %}
+    {% set int_publication_year = page.extra.publication_year | int %}
+    {% if page.extra.publication_year != current_year and int_publication_year > 2005 %}
+        {% set_global current_year = page.extra.publication_year %}
+        {% if current_year != "" %}
+            </div>
+        {% endif %}
+        <h3>{{ current_year }}</h3>
+        <div class="section">
+    {% elif page.extra.publication_year != current_year and int_publication_year == 2005 %}
+        {% set_global current_year = page.extra.publication_year %}
+        </div>
+        <h3>{{ current_year }} and earlier</h3>
+        <div class="section">
+    {% endif %}
+    <p>{{ page.extra.authors }} ({{ page.extra.publication_year }}) <a rel="noopener" rel="nofollow" rel="noreferrer" target="_blank" href="https://doi.org/{{ page.extra.doi }}">{{ page.title }}</a>. <i>{{ page.extra.journal }}</i> [{{ page.extra.doi }}]</p>
+{% endfor %}
+</div>
+{% endblock content %}
