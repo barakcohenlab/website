@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% import "macros.html" as macros %}
+{% block content %}
+{{ page.content | safe }}
+{% set people = load_data(path="content/people/people.csv", format="csv") %}
+{% if people.headers[0] != "name" or people.headers[1] != "role" or people.headers[2] != "url" or people.headers[3] != "photo" or people.headers[4] != "current" %}
+    {{ throw(message="'people.csv' columns in unexpected order") }}
+{% endif %}
+<h2>Current</h2>
+<div class="people-container">
+{% for person in people.records | filter(attribute="4", value="yes") | sort(attribute="0") %}
+    {{ macros::person(name=person[0], role=person[1], url=person[2], photo=person[3], photo_size=300) }}
+{% endfor %}
+</div>
+<h2>Alumni</h2>
+<div class="people-container">
+{% for person in people.records | filter(attribute="4", value="no") | sort(attribute="0") %}
+    {{ macros::person(name=person[0], role=person[1], url=person[2], photo=person[3], photo_size=200) }}
+{% endfor %}
+</div>
+{% endblock content %}

@@ -18,11 +18,11 @@
     </div>
     <div style="flex: 1 1 0;">
         <h2>Recent <a href="{{ get_url(path="publications") }}">Publications</a></h2>
-        {% set publications = get_section(path="publications/_index.md") %}
+        {% set publications = load_data(path="content/publications/publications.csv", format="csv") %}
         <ul>
         {% for i in [0,1,2,] %}
-            {% set publication = publications.pages[i] %}
-            <li>"<a rel="noopener" rel="nofollow" rel="noreferrer" target="_blank" href="https://doi.org/{{ publication.extra.doi }}">{{ publication.title }}</a>" in <i>{{ publication.extra.journal }}</i></li>
+            {% set publication = publications.records[i] %}
+            <li>"<a rel="noopener" rel="nofollow" rel="noreferrer" target="_blank" href="https://doi.org/{{ publication[4] }}">{{ publication[0] }}</a>" in <i>{{ publication[2] }}</i></li>
         {% endfor %}
         </ul>
     </div>

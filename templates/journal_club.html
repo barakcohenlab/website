@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% import "macros.html" as macros %}
+{% block content %}
+{{ page.content | safe }}
+<div class="section">
+{% set paper_data = load_data(path="content/journal_club/journal_club_papers.csv", format="csv") %}
+{% if paper_data.headers[0] != "date_discussed" or paper_data.headers[1] != "title" or paper_data.headers[2] != "authors" or paper_data.headers[3] != "journal" or paper_data.headers[4] != "publication_year" or paper_data.headers[5] != "doi" %}
+    {{ throw(message="'journal_club_papers.csv' columns in unexpected order") }}
+{% endif %}
+{% for paper_data in paper_data.records %}
+<p><b>{{ paper_data[0] }}</b>: {{ macros::paper(title=paper_data[1], authors=paper_data[2], journal=paper_data[3], publication_year=paper_data[4], doi=paper_data[5]) }}</p> 
+{% endfor %}
+</div>
+{% endblock content %}

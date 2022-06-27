@@ -96,3 +96,24 @@
 {% endfor %}
 </ul>
 {% endmacro termlist %}
+
+{% macro paper(title, authors, journal, publication_year, doi) %}
+{{ authors }} <a rel="noopener" rel="nofollow" rel="noreferrer" target="_blank" href="https://doi.org/{{ doi }}">{{ title }}</a>. <i>{{ journal }}</i> ({{ publication_year }}) [doi: {{ doi }}]
+{% endmacro paper %}
+
+{% macro person(name, role, url, photo, photo_size) %}
+{% set image = resize_image(path="/people/photos/" ~ photo, width=photo_size, height=photo_size, op="fit", format="jpeg", quality=90) %}
+{% if url %}
+<a class="person" style="max-width: {{ photo_size / 2 }}px;" target="_blank" rel="noopener" rel="noreferrer" href="{{ url }}">
+{% else %}
+<span class="person" style="max-width: {{ photo_size / 2 }}px;">
+{% endif %}
+    <img style="width: {{ photo_size / 2 }}px; height: {{ photo_size / 2 }}px; object-fit: contain;" src="{{ image.url }}">
+    <div class="name">{{ name }}</div>
+    <div class="role">{{ role }}</div>
+{% if url %}
+</a>
+{% else %}
+</span>
+{% endif %}
+{% endmacro person %}

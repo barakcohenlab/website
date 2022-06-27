@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block content %}
+{{ section.content | safe }}
+<ol class="research-list">
+{% for page in section.pages %}
+    <li>
+        <a href="{{ get_url(path=page.path) }}">{{ page.title | markdown(inline=true) | safe }}</a>
+        {{ page.content | safe }}
+    </li>
+{% endfor %}
+</ol>
+{% endblock content %}
