@@ -8,8 +8,8 @@ date_discussed,title,authors,journal,publication_year,doi
 2/2/22,Mutational sources of trans-regulatory variation affecting gene expression in Saccharomyces cerevisiae,Duveau F et al.,eLife,2021,10.7554/eLife.67806
 1/26/22,Dynamics of epigenetic regulation at the single-cell level,Bintu L et al.,Science,2016,10.1126/science.aab2956
 12/8/21,Cardiac cell type-specific gene regulatory programs and disease risk association,Hocker JD et al.,Science Advances,2021,10.1126/sciadv.abf1444
-11/10/21,"Building regulatory landscapes: enhancer recruits cohesin to create contact domains, engage CTCF sites and activate distant genes",Rinzema NJ et al.,Biorxiv Preprint,2021,10.1101/2021.10.05.463209
-11/3/21,DeepSTARR predicts enhancer activity from DNA sequence and enables the de novo design of enhancers,de Almeida BP et al.,Biorxiv Preprint,2021,10.1101/2021.10.05.463203
+11/10/21,"Building regulatory landscapes: enhancer recruits cohesin to create contact domains, engage CTCF sites and activate distant genes",Rinzema NJ et al.,bioRχiv Preprint,2021,10.1101/2021.10.05.463209
+11/3/21,DeepSTARR predicts enhancer activity from DNA sequence and enables the de novo design of enhancers,de Almeida BP et al.,bioRχiv Preprint,2021,10.1101/2021.10.05.463203
 10/27/21,An atlas of gene regulatory elements in adult mouse cerebrum,Li YE et al.,Nature,2021,10.1038/s41586-021-03604-1
 10/20/21,An intrinsically disordered region-mediated confinement state contributes to the dynamics and function of transcription factors,Garcia DA et al.,Molecular Cell,2021,10.1016/j.molcel.2021.01.013
 10/6/21,Live imaging and biophysical modeling support a button-based mechanism of somatic homolog pairing in Drosophila,Child MB et al.,eLife,2021,10.7554/eLife.64412
@@ -56,7 +56,7 @@ date_discussed,title,authors,journal,publication_year,doi
 6/24/20,Activity-by-contact model of enhancer-promoter regulation from thousands of CRISPR perturbations,Fulco CP et al.,Nature Genetics,2019,10.1038/s41588-019-0538-0
 6/17/20,Controlling gene activation by enhancers through a drug-inducible topological insulator,Tsujimura T et al.,eLife,2020,10.7554/eLife.47980
 5/27/20,Natural variation in stochastic photoreceptor specification and color preference in Drosophila,Anderson C et al.,eLife,2017,10.7554/eLife.29593
-5/20/20,Action at a distance in transcriptional regulation,Bialek W et al.,Arxiv Preprint,2019,10.48550/arXiv.1912.08579
+5/20/20,Action at a distance in transcriptional regulation,Bialek W et al.,arΧiv Preprint,2019,10.48550/arXiv.1912.08579
 5/13/20,Transcription Dynamics Regulate Poly(A) Tails and Expression of the RNA Degradation Machinery to Balance mRNA Levels,Slobodin B et al.,Molecular Cell,2020,10.1016/j.molcel.2020.03.022
 5/6/20,Inhibition of transcription leads to rewiring of locus-specific chromatin proteomes,Poramba-Liyanage DW et al.,Genome Research,2020,10.1101/gr.256255.119
 4/15/20,Learning causal networks using inducible transcription factors and transcriptome-wide time series,Hackett SR et al.,Molecular Systems Biology,2020,10.15252/msb.20199174
@@ -100,6 +100,6 @@ date_discussed,title,authors,journal,publication_year,doi
 2/10/16,"Genetic Variation, Not Cell Type of Origin, Underlies the Majority of Identifiable Regulatory Differences in iPSCs",Burrows CK et al.,PLOS Genetics,2016,10.1371/journal.pgen.1005793
 2/3/16,Intersecting transcription networks constrain gene regulatory evolution,Sorrells TR et al.,Nature,2015,10.1038/nature14613
 1/27/16,Digital signaling decouples activation probability and population heterogeneity,Kellogg RA et al.,eLife,2015,10.7554/eLife.08931
-1/20/16,Competition between binding sites determines gene expression at low transcription factor concentrations,van Dijk D et al.,Biorxiv Preprint,2016,10.1101/033753
+1/20/16,Competition between binding sites determines gene expression at low transcription factor concentrations,van Dijk D et al.,bioRχiv Preprint,2016,10.1101/033753
 12/16/15,DNA-dependent formation of transcription factor pairs alters their binding specificity,Jolma A et al.,Nature,2015,10.1038/nature15518
 12/9/15,Transcriptional regulators form diverse groups with context-dependent regulatory functions,Stampfel G et al.,Nature,2015,10.1038/nature15545
