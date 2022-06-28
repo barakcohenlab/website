@@ -18,4 +18,17 @@
     {{ macros::person(name=person[0], role=person[1], url=person[2], photo=person[3], photo_size=200) }}
 {% endfor %}
 </div>
+<h2>Lab Photos</h2>
+<div class="gallery">
+{% set width = 230 %}
+{% set height = 320 %}
+{% for asset in page.assets | sort | reverse %}
+    {% if asset is starting_with("/people/lab_photos") %}
+        {% set image = resize_image(path=asset, width=width * 2, height=height * 2, op="fit", format="jpeg", quality=90) %}
+        <a href="{{ get_url(path=asset) }}" target="_blank">
+            <img style="width: {{ image.width / 2 }}px; height: {{ image.height / 2 }}px;" src="{{ image.url }}">
+        </a>
+    {% endif %}
+{% endfor %}
+</div>
 {% endblock content %}

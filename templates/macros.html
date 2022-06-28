@@ -41,7 +41,8 @@
                         {% set height = 300 %}
                     {% endif %}
                     {% set image = resize_image(path=asset, width=width * 2, height=height * 2, op="fit", format="jpeg", quality=90) %}
-                    {% set asset_filename = asset | split(pat="/") | last %}
+                    {% set raw_page_prefix = "/" ~ page.relative_path | trim_end_matches(pat="index.md") %}
+                    {% set asset_filename = asset | trim_start_matches(pat=raw_page_prefix) %}
                     {% set asset_path = page.path ~ asset_filename %}
                     <a href="{{ get_url(path=asset_path) }}" target="_blank">
                         <img style="width: {{ image.width / 2 }}px; height: {{ image.height / 2 }}px;" src="{{ image.url }}">
