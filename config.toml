@@ -3,7 +3,7 @@ compile_sass = true
 build_search_index = false
 title = "Cohen Lab"
 description = "The laboratory of Barak Cohen at Washington University in St. Louis"
-ignored_content = ["*.csv", ".DS_Store", "*.py"]
+ignored_content = [".DS_Store"]
 taxonomies = [
     { name = "authors", feed = false, paginate_by = 10 },
     { name = "tags", feed = false, paginate_by = 10 },
