@@ -103,7 +103,10 @@
 {% endmacro paper %}
 
 {% macro person(name, role, url, photo, photo_size) %}
-{% set image = resize_image(path="/people/photos/" ~ photo, width=photo_size, height=photo_size, op="fit", format="jpeg", quality=90) %}
+{% if not photo %}
+    {% set photo = "no-photo.png" %}
+{% endif %}
+{% set image = resize_image(path="/people/photos/" ~ photo, width=photo_size, height=photo_size, op="fit", quality=90) %}
 {% if url %}
 <a class="person" style="max-width: {{ photo_size / 2 }}px;" target="_blank" rel="noopener" rel="noreferrer" href="{{ url }}">
 {% else %}
