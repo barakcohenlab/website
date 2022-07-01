@@ -3,10 +3,9 @@ title = "Contact"
 description = "Contact the Cohen Lab"
 template = "contact.html"
 +++
-# Contact
+# Contact Us
 
 ## Address
-
 
 *Cohen Lab*\
 Couch Biomedical Research Building\
