@@ -5,13 +5,13 @@ template = "contact.html"
 +++
 # Contact Us
 
-## Address
+## Mailing Address
 
 *Cohen Lab*\
 Couch Biomedical Research Building\
-Campus Box #8510\
-4515 McKinley Ave.\
-St. Louis, MO 63110
+CAMPUS BOX #8510\
+4523 CLAYTON AVE\
+SAINT LOUIS, MO 63110
 
 ## Phone
 
