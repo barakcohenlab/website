@@ -1,6 +1,6 @@
 # Cohen Lab website
 
-[https://barakcohenlab.github.io/website/](https://barakcohenlab.github.io/website/)
+[https://bclab.wustl.edu/](https://bclab.wustl.edu/)
 
 This repository contains the files and content for the Cohen Lab website. The website is built as a static site generated from the content in this repository using [Zola](https://getzola.org).
 
