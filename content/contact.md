@@ -3,7 +3,7 @@ title = "Contact"
 description = "Contact the Cohen Lab"
 template = "contact.html"
 +++
-# Contact Us
+# Contact
 
 ## Mailing Address
 
