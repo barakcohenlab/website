@@ -20,7 +20,7 @@
         {% set num_images = 0 %}
         {% set num_attachments = 0 %}
         {% for asset in page.assets %}
-            {% if asset is matching("[.](jpg|png)$") %}
+            {% if asset is matching("[.](jpg|png|jpeg)$") %}
                 {% set_global num_images = num_images + 1 %}
             {% else %}
                 {% set_global num_attachments = num_attachments + 1 %}
