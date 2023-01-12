@@ -29,7 +29,7 @@
         {% if num_images > 0 %}
             <div class="gallery">
             {% for asset in page.assets %}
-                {% if asset is matching("[.](jpg|png)$") %}
+                {% if asset is matching("[.](jpg|png|jpeg)$") %}
                     {% if num_images == 1 %}
                         {% set width = 500 %}
                         {% set height = 500 %}
@@ -57,7 +57,7 @@
             <h3>Attachments</h3>
             <ul class="attachments">
             {% for asset in page.assets %}
-                {% if asset is not matching("[.](jpg|png)$") %}
+                {% if asset is not matching("[.](jpg|png|jpeg)$") %}
                     {% set asset_filename = asset | split(pat="/") | last %}
                     {% set asset_path = page.path ~ asset_filename %}
                     <li>
