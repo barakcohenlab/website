@@ -4,4 +4,4 @@ title = "Congratulations Clarice!"
 authors=["Ryan"]
 tags=["milestones"]
 +++
-Congratulations to Clarice Hong for successfully defending her thesis, "Understanding gene regulation with high-throughput genome-integrated reporter assays"! Watch [a recording of her defense here](https://wustl.box.com/s/5pip5hfpzicpkttqtw1pgis772a124gd).
+Congratulations to Clarice Hong for successfully defending her thesis, "Understanding gene regulation with high-throughput genome-integrated reporter assays"! Watch [a recording of her defense here](https://wustl.box.com/s/wb8cv9aieoygf219lrzaeph217kr1yi6).
