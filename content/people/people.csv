@@ -1,9 +1,7 @@
 name,role,url,photo,current
 Barak Cohen,Alvin Goldfarb Distinguished Professor of Computational Biology,http://genetics.wustl.edu/staff-members/barak-cohen/,barak.jpg,yes
-Dustin Baldridge,Assistant Professor,http://pediatrics.wustl.edu/faculty/Baldridge_D,dustin.jpg,yes
 James Shepherdson,Graduate Student (MSTP),https://mstp.wustl.edu/students/Pages/student_bio.aspx?SID=7514,james.jpg,yes
 Jie Li,Technician,,jie.jpg,yes
-Mike Grupe,Technician,,mikeg.jpg,yes
 Mike White,Associate Professor,http://genetics.wustl.edu/staff-members/michael-white/,mikew.jpg,yes
 Yawei Wu,Graduate Student,https://dbbs.wustl.edu/curstudents/Pages/student_bio.aspx?SID=7750,yawei.jpg,yes
 Yuning Zhang,Postdoctoral Fellow,,yuning.jpg,yes
@@ -16,6 +14,7 @@ Clarice Hong,Graduate Student,https://www.ashansenlab.com/team.html,clarice.jpg,
 Dana King,Graduate Student,https://brcf.medicine.umich.edu/staff-member/dana-king-ph-d/,dana.jpg,no
 Desikan,Technician,,desikan.jpg,no
 Devjanee Swain-Lenz,Staff Scientist,,devjanee.jpg,no
+Dustin Baldridge,Assistant Professor,https://dustinbaldridgelab.wustl.edu/,dustin.jpg,no
 Eddie Ramirez,Postbaccalaureate Student,,eddie.jpg,no
 Hemangi Chaudhari,Graduate Student,,hemangi.jpg,no
 Ilaria Mogno,Postdoctoral Fellow,https://icahn.mssm.edu/profiles/ilaria-mogno,ilaria.jpg,no
@@ -27,10 +26,11 @@ Justin Gerke,Graduate Student,,justin.jpg,no
 Kai Loell,Graduate Student,https://kinneylab.labsites.cshl.edu/people/,kai.jpg,no
 Kimberly Lorenz,Graduate Student,,kim.jpg,no
 Lauren Chircus,Undergraduate Student,,lauren.jpg,no
-Linda Riles,Volunteer,,linda.jpg,yes
+Linda Riles,Volunteer,,linda.jpg,no
 Marc Sherman,Graduate Student (MSTP),https://connects.catalyst.harvard.edu/Profiles/display/Person/149030,marc.jpg,no
 Margie Andersohn,Administrative Assistant,,margie.jpg,no
 Max Staller,Postdoctoral Fellow,https://www.stallerlab.com/,max.jpg,no
+Mike Grupe,Technician,,mikeg.jpg,no
 Nicole Rockweiler,Graduate Student,https://mccarrolllab.org/people/,nicole.jpg,no
 Priya Sudarsanam,Senior Scientist,,priya.jpg,no
 Robert Zeigler,Graduate Student,,robert.jpg,no
