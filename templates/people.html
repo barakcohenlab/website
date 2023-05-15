@@ -2,19 +2,23 @@
 {% import "macros.html" as macros %}
 {% block content %}
 {{ page.content | safe }}
-{% set people = load_data(path="content/people/people.csv", format="csv") %}
-{% if people.headers[0] != "name" or people.headers[1] != "role" or people.headers[2] != "url" or people.headers[3] != "photo" or people.headers[4] != "current" %}
-    {{ throw(message="'people.csv' columns in unexpected order") }}
+{% set current_people = load_data(path="content/people/current.csv", format="csv") %}
+{% if current_people.headers[0] != "name" or current_people.headers[1] != "role" or current_people.headers[2] != "url" or current_people.headers[3] != "photo" %}
+    {{ throw(message="'people/current.csv' columns in unexpected order") }}
+{% endif %}
+{% set alumni_people = load_data(path="content/people/alumni.csv", format="csv") %}
+{% if alumni_people.headers[0] != "name" or alumni_people.headers[1] != "role" or alumni_people.headers[2] != "url" or alumni_people.headers[3] != "photo" %}
+    {{ throw(message="'people/alumni.csv' columns in unexpected order") }}
 {% endif %}
 <h2>Current</h2>
 <div class="people-container">
-{% for person in people.records | filter(attribute="4", value="yes") | sort(attribute="0") %}
+{% for person in current_people.records %}
     {{ macros::person(name=person[0], role=person[1], url=person[2], photo=person[3], photo_size=300) }}
 {% endfor %}
 </div>
 <h2>Alumni</h2>
 <div class="people-container">
-{% for person in people.records | filter(attribute="4", value="no") | sort(attribute="0") %}
+{% for person in alumni_people.records %}
     {{ macros::person(name=person[0], role=person[1], url=person[2], photo=person[3], photo_size=200) }}
 {% endfor %}
 </div>
