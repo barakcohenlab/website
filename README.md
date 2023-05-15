@@ -45,7 +45,7 @@ The publications page is automatically generated from a CSV file, `content/publi
 
 ### People
 
-The people page is automatically generated from a CSV file, `content/people/people.csv`. Adding new rows to this table will automatically update the associated page. Any photos added to the `lab_photos` subdirectory will be added to the lab photo gallery at the bottom of the page. Photo filenames in the CSV file are specified relative to the `photos` subfolder.
+The people page is automatically generated from two CSV files, `content/people/current.csv` and `content/people/alumni.csv`. Adding new rows to either table will automatically update the associated page. Any photos added to the `lab_photos` subdirectory will be added to the lab photo gallery at the bottom of the page. Photo filenames in the CSV file are specified relative to the `photos` subfolder.
 
 ### Journal Club
 
