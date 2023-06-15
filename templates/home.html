@@ -16,15 +16,31 @@
         {% endfor %}
         </tbody></table>
     </div>
+    {% set publications = load_data(path="content/publications/publications.csv", format="csv") %}
     <div style="flex: 1 1 0;">
-        <h2>Recent <a href="{{ get_url(path="publications") }}">Publications</a></h2>
-        {% set publications = load_data(path="content/publications/publications.csv", format="csv") %}
+        <h2>Recent <a href="{{ get_url(path="publications") }}">Preprints</a></h2>
         <ul>
-        {% for i in [0,1,2,] %}
-            {% set publication = publications.records[i] %}
-            <li>"<a rel="noopener" rel="nofollow" rel="noreferrer" target="_blank" href="https://doi.org/{{ publication[4] }}">{{ publication[0] }}</a>" in <i>{{ publication[2] }}</i></li>
+        {% set preprint_counter = 0 %}
+        {% for publication in publications.records %}
+            {% if publication[2] == "bioRxiv" or publication[2] == "bioRχiv" %}
+                <li>"<a rel="noopener" rel="nofollow" rel="noreferrer" target="_blank" href="https://doi.org/{{ publication[4] }}">{{ publication[0] }}</a>" ({{ publication[2] }}, {{ publication[3] }})</li>
+                {% set_global preprint_counter = preprint_counter + 1 %}
+                {% if preprint_counter >= 3 %}
+                    {% break %}
+                {% endif %}
+            {% endif %}
         {% endfor %}
         </ul>
     </div>
+</div>
+<div>
+    <h2>Selected <a href="{{ get_url(path="publications") }}">Publications</a></h2>
+    <ul>
+    {% for publication in publications.records %}
+        {% if publication[2] == "Nature" or publication[2] == "Nature Genetics" or publication[2] == "Nature Biotechnology" or publication[2] == "Science" or publication[2] == "PNAS" or publication[2] == "American Journal Of Human Genetics" %}
+            <li>"<a rel="noopener" rel="nofollow" rel="noreferrer" target="_blank" href="https://doi.org/{{ publication[4] }}">{{ publication[0] }}</a>" ({{ publication[2] }}, {{ publication[3] }})</li>
+        {% endif %}
+    {% endfor %}
+    </ul>
 </div>
 {% endblock content %}
