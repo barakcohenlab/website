@@ -1,62 +1,62 @@
-title,authors,journal,publication_year,doi
-Pathogenic variants in CRX have distinct cis-regulatory effects on enhancers and silencers in photoreceptors,"Shepherdson JL*, Friedman RZ*, Zheng Y, Sun C, Oh IY, Granas DM, Cohen BA, Chen S, White MA",bioRχiv,2023,10.1101/2023.05.27.542576
-The origins and functional effects of postzygotic mutations throughout the human life span,"Rockweiler NB, Ramu A, Nagirnaja L, Wong WH, Noordam MJ, Drubin CW, Huang N, Miller B, Todres EZ, Vigh-Conrad KA, Zito A, Small KS, Ardlie KG, Cohen BA, Conrad DF",Science,2023,10.1126/science.abn7113
-A single-cell massively parallel reporter assay detects cell-type-specific gene regulation,"Zhao S, Hong CKY, Myers CA, Granas DM, White MA, Corbo JC, Cohen BA",Nature Genetics,2023,10.1038/s41588-022-01278-7
-Massively parallel characterization of insulator activity across the genome,"Hong CKY, Erickson AA, Li J, Federico AJ, and Cohen BA",bioRχiv,2022,10.1101/2022.11.29.518444
-Transcription factor fluctuations underlie cell-to-cell variability in a signaling pathway response,"Ramu A and Cohen BA",bioRχiv,2022,10.1101/2022.11.30.518555
-A quantitative metric of pioneer activity reveals that HNF4A has stronger in vivo pioneer activity than FOXA1,"Hansen JL and Cohen BA",Genome Biology,2022,10.1186/s13059-022-02792-x
-Effect of genomic and cellular environments on gene expression noise,"Hong CKY*, Ramu A*, Zhao S*, Cohen BA",bioRχiv,2022,10.1101/2022.08.31.506082
-Activation domains can decouple the mean and noise of gene expression,"Loell K, Wu Y, Staller MV, Cohen BA",Cell Reports,2022,10.1016/j.celrep.2022.111118
-Directed mutational scanning reveals a balance between acidic and hydrophobic residues in strong human activation domains,"Staller MV, Ramirez E, Kotha SR, Holehouse AS, Pappu RV, Cohen BA",Cell Systems,2022,10.1016/j.cels.2022.01.002
-A test of the pioneer factor hypothesis using ectopic liver gene activation,"Hansen JL, Loell KJ, Cohen BA",eLife,2022,10.7554/eLife.73358
-Genomic environments scale the activities of diverse core promoters,"Hong CKY, Cohen BA",Genome Research,2022,10.1101/gr.276025.121
-Modular effects of gene promoters and chromatin environments on noise in gene expression,"Zhao S, Pincus Z, Cohen BA",bioRχiv,2021,10.1101/2021.04.29.441875
-Information content differentiates enhancers from silencers in mouse photoreceptors,"Friedman RZ, Granas DM, Myers CA, Corbo JC, Cohen BA, White MA",eLife,2021,10.7554/eLife.67403
-Sex- and Mutation-Specific p53 Gain-of-Function Activity in Gliomagenesis,"Rockwell NC, Yang W, Warrington NM, Staller MV, Griffith M, Griffith OL, Gurnett CA, Cohen BA, Baldridge D, Rubin JB",Cancer Research Communications,2021,10.1158/2767-9764.CRC-21-0026
-Synthetic and genomic regulatory elements reveal aspects of cis-regulatory grammar in mouse embryonic stem cells,"King DM, Hong CKY, Shepherdson JL, Granas DM, Maricque BB, Cohen BA",eLife,2020,10.7554/eLife.41279
-A massively parallel reporter assay dissects the influence of chromatin structure on cis-regulatory activity,"Maricque BB*, Chaudhari HG*, Cohen BA",Nature Biotechnology,2019,10.1038/nbt.4285
-PTRE-seq reveals mechanism and interactions of RNA binding proteins and miRNAs,"Cottrell KA, Chaudhari HG, Cohen BA, Djuranovic S",Nature Communications,2018,10.1038/s41467-017-02745-0
-Local sequence features that influence AP-1 cis-regulatory activity,"Chaudhari HG, Cohen BA",Genome Research,2018,10.1101/gr.226530.117
-A High-Throughput Mutational Scan of an Intrinsically Disordered Acidic Transcriptional Activation Domain,"Staller MV, Holehouse AS, Swain-Lenz D, Das RK, Pappu RV, Cohen BA",Cell Systems,2018,10.1016/j.cels.2018.01.015
-Point of View: How should novelty be valued in science?,Cohen BA,eLife,2017,10.7554/eLife.28699
-Causal Genetic Variation Underlying Metabolome Differences,"Swain-Lenz D, Nikolskiy I, Cheng JY, Sudarsanam P, Nayler D, Staller MV, Cohen BA",Genetics,2017,10.1534/genetics.117.203752
-A genome-integrated massively parallel reporter assay reveals DNA sequence determinants of cis-regulatory activity in neural cells,"Maricque BB, Dougherty JD, Cohen BA",Nucleic Acids Research,2017,10.1093/nar/gkw942
-A Simple Grammar Defines Activating and Repressing cis-Regulatory Elements in Photoreceptors,"White MA, Kwasnieski JC, Myers CA, Shen SQ, Corbo JC, Cohen BA",Cell Reports,2016,10.1016/j.celrep.2016.09.066
-Interactions between pluripotency factors specify cis-regulation in embryonic stem cells,"Fiore C, Cohen BA",Genome Research,2016,10.1101/gr.200733.115
-Promoter-distal RNA polymerase II binding discriminates active from inactive CCAAT/enhancer-binding protein beta binding sites,"Savic D, Roberts BS, Carleton JB, Partridge EC, White MA, Cohen BA, Cooper GM, Gertz J, Myers RM",Genome Research,2015,10.1101/gr.191593.115
-Understanding how cis-regulatory function is encoded in DNA sequence using massively parallel reporter assays and designed sequences,White MA,Genomics,2015,10.1016/j.ygeno.2015.06.003
-Cell-to-Cell Variability in the Propensity to Transcribe Explains Correlated Fluctuations in Gene Expression,"Sherman MS, Lorenz K, Lanier MH, Cohen BA",Cell Systems,2015,10.1016/j.cels.2015.10.011
-Single Nucleotide Variants in Transcription Factors Associate More Tightly with Phenotype than with Gene Expression,"Sudarsanam P, Cohen BA",PLOS Genetics,2014,10.1371/journal.pgen.1004325
-Origin and Consequences of the Relationship between Protein Mean and Variance,"Vallania FLM, Sherman M, Goodwin Z, Mogno I, Cohen BA, Mitra RD",PLOS One,2014,10.1371/journal.pone.0102202
-Discrimination between thermodynamic models of cis-regulation using transcription factor occupancy data,"Zeigler RD, Cohen BA",Nucleic Acids Research,2014,10.1093/nar/gkt1230
-A Computational Framework for Analyzing Stochasticity in Gene Expression,"Sherman MS, Cohen BA",PLOS Computational Biology,2014,10.1371/journal.pcbi.1003596
-High-throughput functional testing of ENCODE segmentation predictions,"Kwasnieski JC*, Fiore C*, Chaudhari HG, Cohen BA",Genome Research,2014,10.1101/gr.173518.114
-Causal Variation in Yeast Sporulation Tends to Reside in a Pathway Bottleneck,"Lorenz K, Cohen BA",PLOS Genetics,2014,10.1371/journal.pgen.1004634
-Massively parallel in vivo enhancer assay reveals that highly local features determine the cis-regulatory function of ChIP-seq peaks,"White MA, Myers CA, Corbo JC, Cohen BA",PNAS,2013,10.1073/pnas.1307449110
-Massively parallel synthetic promoter assays reveal the in vivo effects of binding site variants,"Mogno I*, Kwasnieski JC*, Cohen BA",Genome Research,2013,10.1101/gr.157891.113
-Thermodynamic State Ensemble Models of cis-Regulation,"Sherman MS, Cohen BA",PLOS Computational Biology,2012,10.1371/journal.pcbi.1002407
-A model of spatially restricted transcription in opposing gradients of activators and repressors,"White MA, Parker DS, Barolo S, Cohen BA",Molecular Systems Biology,2012,10.1038/msb.2012.48
-Small- and Large-Effect Quantitative Trait Locus Interactions Underlie Variation in Yeast Sporulation Efficiency,"Lorenz K, Cohen BA",Genetics,2012,10.1534/genetics.112.143107
-Complex effects of nucleotide variants in a mammalian cis-regulatory element,"Kwasnieski JC*, Mogno I*, Myers CA, Corbo JC, Cohen BA",PNAS,2012,10.1073/pnas.1210678109
-"The cis-Regulatory Logic of Hedgehog Gradient Responses: Key Roles for Gli Binding Affinity, Competition, and Cooperativity","Parker DS*, White MA*, Ramos AI, Cohen BA, Barolo S",Science Signaling,2011,10.1126/scisignal.2002077
-TATA is a modular component of synthetic promoters,"Mogno I, Vallania F, Mitra RD, Cohen BA",Genome Research,2010,10.1101/gr.106732.110
-Epistasis in a quantitative trait captured by a molecular model of transcription factor interactions,"Gertz J, Gerke JP, Cohen BA",Theoretical Population Biology,2010,10.1016/j.tpb.2009.10.002
-Gene-Environment Interactions at Nucleotide Resolution,"Gerke J, Lorenz K, Ramnarine S, Cohen B",PLOS Genetics,2010,10.1371/journal.pgen.1001144
-Analysis of combinatorial cis-regulation in synthetic and genomic promoters,"Gertz J, Siggia ED, Cohen BA",Nature,2009,10.1038/nature07521
-A Systematic Screen for Transcriptional Regulators of the Yeast Cell Cycle,"White MA, Riles L, Cohen BA",Genetics,2009,10.1534/genetics.108.098145
-Genetic Interactions Between Transcription Factors Cause Natural Variation in Yeast,"Gerke J, Lorenz K, Cohen B",Science,2009,10.1126/science.1166426
-Environment-specific combinatorial cis-regulation in synthetic promoters,"Gertz J, Cohen BA",Molecular Systems Biology,2009,10.1038/msb2009.1
-Ultraconserved Elements in the Olig2 Promoter,"Chen CTL, Gottlieb DI, Cohen BA",PLOS One,2008,10.1371/journal.pone.0003946
-The strength of selection on ultraconserved elements in the human genome,"Chen CTL, Wang JC, Cohen BA",American Journal Of Human Genetics,2007,10.1086/513149
-Complex genetic changes in strains of Saccharomyces cerevisiae derived by selection in the laboratory,"Witten JT, Chen CTL, Cohen BA",Genetics,2007,10.1534/genetics.107.077859
-A cis-regulatory logic simulator,"Zeigler RD, Gertz J, Cohen BA",BMC Bioinformatics,2007,10.1186/1471-2105-8-272
-Natural isolates of Saccharomyces cerevisiae display complex genetic variation in sporulation efficiency,"Gerke JP, Chen CTL, Cohen BA",Genetics,2006,10.1534/genetics.106.058453
-Phylogeny based discovery of regulatory elements,"Gertz J, Fay JC, Cohen BA",BMC Bioinformatics,2006,10.1186/1471-2105-7-266
-"Discovery, validation, and genetic dissection of transcription factor binding sites by comparative and functional genomics","Gertz J, Riles L, Turnbaugh P, Ho SW, Cohen BA",Genome Research,2005,10.1101/gr.3859605
-Finding functional features in Saccharomyces genomes by phylogenetic footprinting,"Cliften P, Sudarsanam P, Desikan A, Fulton L, Fulton B, Majors J, Waterston R, Cohen BA, Johnston M",Science,2003,10.1126/science.1084337
-Discrimination between paralogs using microarray analysis: Application to the Yap1p and Yap2p transcriptional networks,"Cohen BA, Pilpel Y, Mitra RD, Church GM",Molecular Biology Of The Cell,2002,10.1091/mbc.01-10-0472
-Targeted modification and transportation of cellular proteins,"Colas P, Cohen B, Ferrigno PK, Silver PA, Brent R",PNAS,2000,10.1073/pnas.97.25.13720
-A computational analysis of whole-genome expression data reveals chromosomal domains of gene expression,"Cohen BA*, Mitra RD*, Hughes JD, Church GM",Nature Genetics,2000,10.1038/79896
-An artificial cell-cycle inhibitor isolated from a combinatorial Library,"Cohen BA, Colas P, Brent R",PNAS,1998,10.1073/pnas.95.24.14272
-Genetic selection of peptide aptamers that recognize and inhibit cyclin-dependent kinase 2,"Colas P*, Cohen B*, Jessen T, Grishina I, McCoy J, Brent R",Nature,1996,10.1038/380548a0
-Panglobal Distribution of a Single Clonal Lineage of the Irish Potato Famine Fungus,"Goodwin SB, Cohen BA, Fry WE",PNAS,1994,10.1073/pnas.91.24.11591
+title,authors,journal,publication_year,doi,featured
+Pathogenic variants in CRX have distinct cis-regulatory effects on enhancers and silencers in photoreceptors,"Shepherdson JL*, Friedman RZ*, Zheng Y, Sun C, Oh IY, Granas DM, Cohen BA, Chen S, White MA",bioRχiv,2023,10.1101/2023.05.27.542576,
+The origins and functional effects of postzygotic mutations throughout the human life span,"Rockweiler NB, Ramu A, Nagirnaja L, Wong WH, Noordam MJ, Drubin CW, Huang N, Miller B, Todres EZ, Vigh-Conrad KA, Zito A, Small KS, Ardlie KG, Cohen BA, Conrad DF",Science,2023,10.1126/science.abn7113,yes
+A single-cell massively parallel reporter assay detects cell-type-specific gene regulation,"Zhao S, Hong CKY, Myers CA, Granas DM, White MA, Corbo JC, Cohen BA",Nature Genetics,2023,10.1038/s41588-022-01278-7,yes
+Massively parallel characterization of insulator activity across the genome,"Hong CKY, Erickson AA, Li J, Federico AJ, and Cohen BA",bioRχiv,2022,10.1101/2022.11.29.518444,
+Transcription factor fluctuations underlie cell-to-cell variability in a signaling pathway response,Ramu A and Cohen BA,bioRχiv,2022,10.1101/2022.11.30.518555,
+A quantitative metric of pioneer activity reveals that HNF4A has stronger in vivo pioneer activity than FOXA1,Hansen JL and Cohen BA,Genome Biology,2022,10.1186/s13059-022-02792-x,
+Effect of genomic and cellular environments on gene expression noise,"Hong CKY*, Ramu A*, Zhao S*, Cohen BA",bioRχiv,2022,10.1101/2022.08.31.506082,
+Activation domains can decouple the mean and noise of gene expression,"Loell K, Wu Y, Staller MV, Cohen BA",Cell Reports,2022,10.1016/j.celrep.2022.111118,
+Directed mutational scanning reveals a balance between acidic and hydrophobic residues in strong human activation domains,"Staller MV, Ramirez E, Kotha SR, Holehouse AS, Pappu RV, Cohen BA",Cell Systems,2022,10.1016/j.cels.2022.01.002,
+A test of the pioneer factor hypothesis using ectopic liver gene activation,"Hansen JL, Loell KJ, Cohen BA",eLife,2022,10.7554/eLife.73358,
+Genomic environments scale the activities of diverse core promoters,"Hong CKY, Cohen BA",Genome Research,2022,10.1101/gr.276025.121,
+Modular effects of gene promoters and chromatin environments on noise in gene expression,"Zhao S, Pincus Z, Cohen BA",bioRχiv,2021,10.1101/2021.04.29.441875,
+Information content differentiates enhancers from silencers in mouse photoreceptors,"Friedman RZ, Granas DM, Myers CA, Corbo JC, Cohen BA, White MA",eLife,2021,10.7554/eLife.67403,
+Sex- and Mutation-Specific p53 Gain-of-Function Activity in Gliomagenesis,"Rockwell NC, Yang W, Warrington NM, Staller MV, Griffith M, Griffith OL, Gurnett CA, Cohen BA, Baldridge D, Rubin JB",Cancer Research Communications,2021,10.1158/2767-9764.CRC-21-0026,
+Synthetic and genomic regulatory elements reveal aspects of cis-regulatory grammar in mouse embryonic stem cells,"King DM, Hong CKY, Shepherdson JL, Granas DM, Maricque BB, Cohen BA",eLife,2020,10.7554/eLife.41279,
+A massively parallel reporter assay dissects the influence of chromatin structure on cis-regulatory activity,"Maricque BB*, Chaudhari HG*, Cohen BA",Nature Biotechnology,2019,10.1038/nbt.4285,yes
+PTRE-seq reveals mechanism and interactions of RNA binding proteins and miRNAs,"Cottrell KA, Chaudhari HG, Cohen BA, Djuranovic S",Nature Communications,2018,10.1038/s41467-017-02745-0,
+Local sequence features that influence AP-1 cis-regulatory activity,"Chaudhari HG, Cohen BA",Genome Research,2018,10.1101/gr.226530.117,
+A High-Throughput Mutational Scan of an Intrinsically Disordered Acidic Transcriptional Activation Domain,"Staller MV, Holehouse AS, Swain-Lenz D, Das RK, Pappu RV, Cohen BA",Cell Systems,2018,10.1016/j.cels.2018.01.015,
+Point of View: How should novelty be valued in science?,Cohen BA,eLife,2017,10.7554/eLife.28699,
+Causal Genetic Variation Underlying Metabolome Differences,"Swain-Lenz D, Nikolskiy I, Cheng JY, Sudarsanam P, Nayler D, Staller MV, Cohen BA",Genetics,2017,10.1534/genetics.117.203752,
+A genome-integrated massively parallel reporter assay reveals DNA sequence determinants of cis-regulatory activity in neural cells,"Maricque BB, Dougherty JD, Cohen BA",Nucleic Acids Research,2017,10.1093/nar/gkw942,
+A Simple Grammar Defines Activating and Repressing cis-Regulatory Elements in Photoreceptors,"White MA, Kwasnieski JC, Myers CA, Shen SQ, Corbo JC, Cohen BA",Cell Reports,2016,10.1016/j.celrep.2016.09.066,yes
+Interactions between pluripotency factors specify cis-regulation in embryonic stem cells,"Fiore C, Cohen BA",Genome Research,2016,10.1101/gr.200733.115,
+Promoter-distal RNA polymerase II binding discriminates active from inactive CCAAT/enhancer-binding protein beta binding sites,"Savic D, Roberts BS, Carleton JB, Partridge EC, White MA, Cohen BA, Cooper GM, Gertz J, Myers RM",Genome Research,2015,10.1101/gr.191593.115,
+Understanding how cis-regulatory function is encoded in DNA sequence using massively parallel reporter assays and designed sequences,White MA,Genomics,2015,10.1016/j.ygeno.2015.06.003,
+Cell-to-Cell Variability in the Propensity to Transcribe Explains Correlated Fluctuations in Gene Expression,"Sherman MS, Lorenz K, Lanier MH, Cohen BA",Cell Systems,2015,10.1016/j.cels.2015.10.011,
+Single Nucleotide Variants in Transcription Factors Associate More Tightly with Phenotype than with Gene Expression,"Sudarsanam P, Cohen BA",PLOS Genetics,2014,10.1371/journal.pgen.1004325,yes
+Origin and Consequences of the Relationship between Protein Mean and Variance,"Vallania FLM, Sherman M, Goodwin Z, Mogno I, Cohen BA, Mitra RD",PLOS One,2014,10.1371/journal.pone.0102202,
+Discrimination between thermodynamic models of cis-regulation using transcription factor occupancy data,"Zeigler RD, Cohen BA",Nucleic Acids Research,2014,10.1093/nar/gkt1230,
+A Computational Framework for Analyzing Stochasticity in Gene Expression,"Sherman MS, Cohen BA",PLOS Computational Biology,2014,10.1371/journal.pcbi.1003596,yes
+High-throughput functional testing of ENCODE segmentation predictions,"Kwasnieski JC*, Fiore C*, Chaudhari HG, Cohen BA",Genome Research,2014,10.1101/gr.173518.114,
+Causal Variation in Yeast Sporulation Tends to Reside in a Pathway Bottleneck,"Lorenz K, Cohen BA",PLOS Genetics,2014,10.1371/journal.pgen.1004634,
+Massively parallel in vivo enhancer assay reveals that highly local features determine the cis-regulatory function of ChIP-seq peaks,"White MA, Myers CA, Corbo JC, Cohen BA",PNAS,2013,10.1073/pnas.1307449110,yes
+Massively parallel synthetic promoter assays reveal the in vivo effects of binding site variants,"Mogno I*, Kwasnieski JC*, Cohen BA",Genome Research,2013,10.1101/gr.157891.113,
+Thermodynamic State Ensemble Models of cis-Regulation,"Sherman MS, Cohen BA",PLOS Computational Biology,2012,10.1371/journal.pcbi.1002407,
+A model of spatially restricted transcription in opposing gradients of activators and repressors,"White MA, Parker DS, Barolo S, Cohen BA",Molecular Systems Biology,2012,10.1038/msb.2012.48,
+Small- and Large-Effect Quantitative Trait Locus Interactions Underlie Variation in Yeast Sporulation Efficiency,"Lorenz K, Cohen BA",Genetics,2012,10.1534/genetics.112.143107,
+Complex effects of nucleotide variants in a mammalian cis-regulatory element,"Kwasnieski JC*, Mogno I*, Myers CA, Corbo JC, Cohen BA",PNAS,2012,10.1073/pnas.1210678109,yes
+"The cis-Regulatory Logic of Hedgehog Gradient Responses: Key Roles for Gli Binding Affinity, Competition, and Cooperativity","Parker DS*, White MA*, Ramos AI, Cohen BA, Barolo S",Science Signaling,2011,10.1126/scisignal.2002077,yes
+TATA is a modular component of synthetic promoters,"Mogno I, Vallania F, Mitra RD, Cohen BA",Genome Research,2010,10.1101/gr.106732.110,
+Epistasis in a quantitative trait captured by a molecular model of transcription factor interactions,"Gertz J, Gerke JP, Cohen BA",Theoretical Population Biology,2010,10.1016/j.tpb.2009.10.002,
+Gene-Environment Interactions at Nucleotide Resolution,"Gerke J, Lorenz K, Ramnarine S, Cohen B",PLOS Genetics,2010,10.1371/journal.pgen.1001144,
+Analysis of combinatorial cis-regulation in synthetic and genomic promoters,"Gertz J, Siggia ED, Cohen BA",Nature,2009,10.1038/nature07521,yes
+A Systematic Screen for Transcriptional Regulators of the Yeast Cell Cycle,"White MA, Riles L, Cohen BA",Genetics,2009,10.1534/genetics.108.098145,
+Genetic Interactions Between Transcription Factors Cause Natural Variation in Yeast,"Gerke J, Lorenz K, Cohen B",Science,2009,10.1126/science.1166426,yes
+Environment-specific combinatorial cis-regulation in synthetic promoters,"Gertz J, Cohen BA",Molecular Systems Biology,2009,10.1038/msb2009.1,
+Ultraconserved Elements in the Olig2 Promoter,"Chen CTL, Gottlieb DI, Cohen BA",PLOS One,2008,10.1371/journal.pone.0003946,
+The strength of selection on ultraconserved elements in the human genome,"Chen CTL, Wang JC, Cohen BA",American Journal Of Human Genetics,2007,10.1086/513149,yes
+Complex genetic changes in strains of Saccharomyces cerevisiae derived by selection in the laboratory,"Witten JT, Chen CTL, Cohen BA",Genetics,2007,10.1534/genetics.107.077859,
+A cis-regulatory logic simulator,"Zeigler RD, Gertz J, Cohen BA",BMC Bioinformatics,2007,10.1186/1471-2105-8-272,
+Natural isolates of Saccharomyces cerevisiae display complex genetic variation in sporulation efficiency,"Gerke JP, Chen CTL, Cohen BA",Genetics,2006,10.1534/genetics.106.058453,
+Phylogeny based discovery of regulatory elements,"Gertz J, Fay JC, Cohen BA",BMC Bioinformatics,2006,10.1186/1471-2105-7-266,
+"Discovery, validation, and genetic dissection of transcription factor binding sites by comparative and functional genomics","Gertz J, Riles L, Turnbaugh P, Ho SW, Cohen BA",Genome Research,2005,10.1101/gr.3859605,
+Finding functional features in Saccharomyces genomes by phylogenetic footprinting,"Cliften P, Sudarsanam P, Desikan A, Fulton L, Fulton B, Majors J, Waterston R, Cohen BA, Johnston M",Science,2003,10.1126/science.1084337,yes
+Discrimination between paralogs using microarray analysis: Application to the Yap1p and Yap2p transcriptional networks,"Cohen BA, Pilpel Y, Mitra RD, Church GM",Molecular Biology Of The Cell,2002,10.1091/mbc.01-10-0472,
+Targeted modification and transportation of cellular proteins,"Colas P, Cohen B, Ferrigno PK, Silver PA, Brent R",PNAS,2000,10.1073/pnas.97.25.13720,
+A computational analysis of whole-genome expression data reveals chromosomal domains of gene expression,"Cohen BA*, Mitra RD*, Hughes JD, Church GM",Nature Genetics,2000,10.1038/79896,
+An artificial cell-cycle inhibitor isolated from a combinatorial Library,"Cohen BA, Colas P, Brent R",PNAS,1998,10.1073/pnas.95.24.14272,
+Genetic selection of peptide aptamers that recognize and inhibit cyclin-dependent kinase 2,"Colas P*, Cohen B*, Jessen T, Grishina I, McCoy J, Brent R",Nature,1996,10.1038/380548a0,
+Panglobal Distribution of a Single Clonal Lineage of the Irish Potato Famine Fungus,"Goodwin SB, Cohen BA, Fry WE",PNAS,1994,10.1073/pnas.91.24.11591,

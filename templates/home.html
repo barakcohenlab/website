@@ -37,7 +37,7 @@
     <h2>Selected <a href="{{ get_url(path="publications") }}">Publications</a></h2>
     <ul>
     {% for publication in publications.records %}
-        {% if publication[2] == "Nature" or publication[2] == "Nature Genetics" or publication[2] == "Nature Biotechnology" or publication[2] == "Science" or publication[2] == "PNAS" or publication[2] == "American Journal Of Human Genetics" %}
+        {% if publication[5] == "yes" %}
             <li>"<a rel="noopener" rel="nofollow" rel="noreferrer" target="_blank" href="https://doi.org/{{ publication[4] }}">{{ publication[0] }}</a>" ({{ publication[2] }}, {{ publication[3] }})</li>
         {% endif %}
     {% endfor %}
