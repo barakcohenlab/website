@@ -1,4 +1,10 @@
 date_discussed,title,authors,journal,publication_year,doi
+7/10/24,"Overlapping binding sites underlie TF genomic occupancy",Khetan et al.,bioRxiv,2024,10.1101/2024.03.05.583629
+6/26/24,"Viral reprogramming of host transcription initiation",Ungerleider et al.,Nucleic Acids Research,2024,10.1093/nar/gkae175
+6/19/24,"The Carbon Footprint of Bioinformatics",Grealey et al.,Molecular Biology and Evolution,2022,10.1093/molbev/msac034
+6/12/24,"Comparative cofactor screens show the influence of transactivation domains and core promoters on the mechanisms of transcription",Bell et al.,Nature Genetics,2024,10.1038/s41588-024-01749-z
+6/5/24,"Sequence basis of transcription initiation in the human genome",Dudnyk et al.,Science,2024,10.1126/science.adj0116
+5/29/24,"Inferring gene regulatory networks from single-cell multiome data using atlas-scale external data",Yuan et al.,Nature Biotechnology,2024,10.1038/s41587-024-02182-7
 5/15/24,"Enhancer cooperativity can compensate for loss of activity over large genomic distances",Thomas H et al.,bioRxiv,2023,10.1101/2023.12.06.570399
 5/1/24,"Whole-genome long-read sequencing downsampling and its effect on variant-calling precision and recall",Harvey WT et al.,Genome Research,2023,10.1101/gr.278070.123
 4/17/24,"Synthetic reversed sequences reveal default genomic states",Camellato BR,Nature,2024,10.1038/s41586-024-07128-2
