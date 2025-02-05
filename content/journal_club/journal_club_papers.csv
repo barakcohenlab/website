@@ -1,4 +1,22 @@
 date_discussed,title,authors,journal,publication_year,doi
+1/30/24,"Sequence- and chemical specificity define the functional landscape of intrinsically disordered regions",Langstein-Skora I et al.,bioRxiv,2024,10.1101/2022.02.10.480018
+1/22/24,"Long-range regulation of transcription scales with genomic distance in a gene-specific manner",Jensen CL et al.,Molecular Cell,2024,10.1016/j.molcel.2024.10.021
+1/15/24,"CTCF depletion decouples enhancer-mediated gene activation from chromatin hub formation during cellular differentiation",Karpinska MA et al.,bioRxiv,2024,10.1101/2024.11.20.624447
+12/18/24,"Synergy between cis-regulatory elements can render cohesin dispensable for distal enhancer function",Hansen KL et al.,bioRxiv,2024,10.1101/2024.10.04.615095
+12/11/24,"Massively parallel binding assay (MPBA) reveals limited transcription factor binding cooperativity, challenging models of specificity",Lang TJ et al.,Nucleic Acids Research,2024,10.1093/nar/gkae846
+12/4/24,"Deaminase-assisted single-molecule and single-cell chromatin fiber sequencing",Swanson EG et al.,bioRxiv,2024,10.1101/2024.11.06.622310
+11/13/24,"Mechanisms governing target search and binding dynamics of hypoxia-inducible factors",Chen et al.,eLife,2022,10.7554/eLife.75064
+10/9/24,"Chromatin-dependent motif syntax defines differentiation trajectories",Durdu et al.,bioRxiv,2024,10.1101/2024.08.05.606702
+10/2/24,"Deep Mutational Scanning in Disease-related Genes with Saturation Mutagenesis-Reinforced Functional Assays (SMuRF)",Ma K et al.,bioRxiv,2023,10.1101/2023.07.12.548370
+9/25/24,"Synthetic enhancers reveal design principles of cell state specific regulatory elements in hematopoiesis",Fromel R et al.,bioRxiv,2024,10.1101/2024.08.26.609645
+9/18/24,"LDB1 establishes multi-enhancer networks to regulate gene expression",Aboreden NG et al.,bioRxiv,2024,10.1101/2024.08.23.609430
+9/11/24,"Systematic identification of transcriptional activation domains from non-transcription factor proteins in plants and yeast", Hummel N et al.,Cell Systems,2024,10.1016/j.cels.2024.05.007
+9/4/24,"RNA polymerases reshape chromatin and coordinate transcription on individual fibers",Tullius TW et al.,bioRxiv,2023,10.1101/2023.12.22.573133
+8/21/24,"Conserved Cis-Acting Range Extender Element Mediates Extreme Long-Range Enhancer Activity in Mammals",Bower G et al.,bioRxiv,2024,10.1101/2024.05.26.595809
+8/14/24,"Chromatin enables precise and scalable gene regulation with factors of limited specificity",Perkins ML et al.,bioRxiv,2024,10.1101/2024.06.13.598840
+8/7/24,"Systematic dissection of sequence features affecting binding specificity of a pioneer factor reveals binding synergy between FOXA1 and AP-1",Xu C et al.,Molecular Cell,2024,10.1016/j.molcel.2024.06.022
+7/31/24,"Deep mutational scanning and machine learning reveal structural and molecular rules governing allosteric hotspots in homologous proteins",Leander M et al.,eLife,2022,10.7554/eLife.79932
+7/24/24,"Super-enhancer interactomes from single cells link clustering and transcription",Le DJ at al.,bioRxiv,2024,10.1101/2024.05.08.593251
 7/10/24,"Overlapping binding sites underlie TF genomic occupancy",Khetan et al.,bioRxiv,2024,10.1101/2024.03.05.583629
 6/26/24,"Viral reprogramming of host transcription initiation",Ungerleider et al.,Nucleic Acids Research,2024,10.1093/nar/gkae175
 6/19/24,"The Carbon Footprint of Bioinformatics",Grealey et al.,Molecular Biology and Evolution,2022,10.1093/molbev/msac034
