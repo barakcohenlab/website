@@ -1,0 +1,22 @@
+<!doctype html><html lang=en><head><meta charset=utf-8><title>Cohen Lab/Research/Determinants of specificity in mammalian genomes</title><meta content="width=device-width,initial-scale=1" name=viewport><meta content=no-referrer-when-downgrade name=referrer><meta content="Cohen Lab/Research/Determinants of specificity in mammalian genomes" property=og:title><meta content=website property=og:type><meta content=#f0f0f0 name=theme-color><link href=https://bclab.wustl.edu/main.css rel=stylesheet><link href=https://fonts.googleapis.com rel=preconnect><link crossorigin href=https://fonts.gstatic.com rel=preconnect><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&display=swap" rel=stylesheet><body><div class=page><header><h1><a href=https://bclab.wustl.edu>Cohen Lab</a></h1><nav><ul><li><a href=https://bclab.wustl.edu>Home</a><li><a class=selected href=https://bclab.wustl.edu/research>Research</a><li><a href=https://bclab.wustl.edu/publications>Publications</a><li><a href=https://bclab.wustl.edu/posts>Posts</a><li><a href=https://bclab.wustl.edu/people>People</a><li><a href=https://bclab.wustl.edu/journal-club>Journal Club</a><li><a href=https://bclab.wustl.edu/resources>Resources</a><li><a href=https://bclab.wustl.edu/contact>Contact</a></ul></nav></header><main><div class=page-controls><h3>Determinants of specificity in mammalian genomes</h3><a href=https://bclab.wustl.edu/research>[all research areas]</a></div><p>A key question is how the cell distinguishes groups of transcription factor binding sites that make up real enhancers from spurious collections of binding sites. Here we leverage our ability to design thousands of artificial enhancers to unravel the sequence features adjacent to functional versus non-functional instances of transcription factor binding sites.</main><footer><div><a href=https://bclab.wustl.edu>Cohen Lab</a> / <a href=http://genetics.wustl.edu/ rel=noreferrer>Department of Genetics</a> / <a href=https://genomesciences.wustl.edu/ rel=noreferrer>Center for Genome Sciences and Systems Biology</a> / <a href=https://medicine.wustl.edu/ rel=noreferrer>Washington University School of Medicine in St. Louis</a></div></footer></div><dialog id=lightbox><img alt id=lightbox-image></dialog><script>lightbox = document.getElementById("lightbox");
+        lightboxImage = document.getElementById("lightbox-image");
+
+        function showImageLightbox(anEvent) {
+            anEvent.preventDefault();
+            lightboxImage.setAttribute("src", this.getAttribute("href"));
+            lightboxImage.setAttribute("alt", this.querySelector("img").getAttribute("alt"));
+            lightbox.showModal();
+        }
+
+        lightbox.onclick = function(anEvent) {
+            anEvent.preventDefault();
+            lightboxImage.setAttribute("src", "");
+            lightboxImage.setAttribute("alt", "");
+            lightbox.close();
+        };
+
+        const lightboxImageLinks = document.querySelectorAll(".gallery a");
+
+        for (var i = 0; i < lightboxImageLinks.length; i++) {
+            lightboxImageLinks[i].onclick = showImageLightbox;
+        }</script>
