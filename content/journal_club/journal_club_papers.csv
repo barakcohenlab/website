@@ -1,4 +1,44 @@
 date_discussed,title,authors,journal,publication_year,doi
+11/12/26,"Cooperativity enables widespread role of low-affinity motifs in chromatin accessibility and increases regulatory potential",Weilert et al.,Cell Genomics,2026,10.1016/j.xgen.2026.101339
+10/28/26,"Multiomics and deep learning dissect regulatory syntax in human development",Liu et al.,Nature,2026,10.1038/s41586-026-10326-9
+10/21/26,"Enhancer buffering protects dosage-sensitive housekeeping genes during vulnerable developmental transitions",Ni et al.,bioRxiv,2026,10.64898/2026.07.29.741571
+10/7/26,"Lentiviral single-cell MPRA of synthetic enhancers reveals motif affinity-based encoding of cell state specificity",Rühle et al.,Genome Biology,2026,10.1186/s13059-026-04186-9
+9/9/26,"Pooled combinatorial screening identifies transcription factor sets that drive hematopoietic progenitor-like cell fate",Briggs et al.,Cell Systems,2026,10.1016/j.cels.2026.101644
+8/26/26,"Promoter strength and position govern promoter competition through transcript-dependent insulation",Koska et al.,Nature Genetics,2026,10.1038/s41588-026-02691-y
+8/12/26,"Pervasive and programmed nucleosome distortion on single chromatin fibres",Yang et al.,Nature,2026,10.1038/s41586-026-10418-6
+8/5/26,"Cell-type-specific loops linked to RNA polymerase II elongation in human neural differentiation",Cell Genomics,2024,10.1016/j.xgen.2024.100606
+7/22/26,"Regulatory grammar in human promoters uncovered by MPRA-based deep learning",Barbadilla-Martínez et al.,Nature,2026,10.1038/s41586-025-10093-z
+7/15/26,"Intrinsic promoter responsiveness dictates sensitivity to transcriptional activation by enhancers",Tan et al.,bioRxiv,2026,10.64898/2026.06.25.734173
+6/23/26,"A computational analysis of whole-genome expression data reveals chromosomal domains of gene expression",Cohen et al.,Nature Genetics,2000,10.1038/79896
+6/16/26,"A genome-integrated massively parallel reporter assay reveals DNA sequence determinants of cis-regulatory activity in neural cells",Maricque et al.,Nucleic Acids Research,2017,10.1093/nar/gkw942
+6/16/26,"A massively parallel reporter assay dissects the influence of chromatin structure on cis-regulatory activity",Maricque et al.,Nature Biotechnology,2018,10.1038/nbt.4285
+6/9/26,"Interactions between pluripotency factors specify cis-regulation in embryonic stem cells",Fiore et al.,Genome Research,2016,10.1101/gr.200733.115
+6/2/26,"Stochastic mRNA Synthesis in Mammalian Cells",Raj et al.,PLOS Biology,2006,10.1371/journal.pbio.0040309
+6/2/26,"Cell-to-Cell Variability in the Propensity to Transcribe Explains Correlated Fluctuations in Gene Expression",Sherman et al.,Cell Systems,2015,10.1016/j.cels.2015.10.011
+5/13/26,"Two distinct chromatin modules regulate proinflammatory gene expression",Seufert et al.,Nature Cell Biology,2025,10.1038/s41556-025-01819-2
+5/6/26,"Phase-separated NDF−FACT condensates facilitate transcription elongation on chromatin",Li et al.,Nature Cell Biology,2025,10.1038/s41556-025-01778-8
+4/15/26,"Basis for lineage-determining pioneer factors targeting distinct repressed chromatin states",Katznelson et al.,Science Advances,2026,10.1126/sciadv.adz7409
+4/1/26,"Bicoid-nucleosome competition sets a concentration threshold for transcription constrained by genome replication",Degen et al.,Cell Reports,2025,10.1016/j.celrep.2025.116121
+3/25/26,"Designing synthetic regulatory elements using the generative AI framework DNA-Diffusion",DaSilva et al.,Nature Genetics,2025,10.1038/s41588-025-02441-6
+3/18/26,"Loop extrusion creates rare, long-lived encounters underlying enhancer-promoter communication",Ubertini et al.,bioRxiv,2025,10.1101/2025.09.24.678119
+3/4/26,"Robust regulatory interplay of enhancers, facilitators, and promoters in a native chromatin context",Zhou et al.,Cell,2026,10.1016/j.cell.2026.06.033
+2/25/26,"Bifunctional transcriptional effector domains control gene expression pulses in an occupancy-dependent manner",Andrews et al.,bioRxiv,2025,10.64898/2025.12.10.693551
+2/11/26,"Emergence of activation or repression in transcriptional control under a fixed molecular context",Mortinez-Corral et al.,PNAS,2025,10.1073/pnas.2413715122
+2/4/26,"Iterative deep learning design of human enhancers exploits condensed sequence grammar to achieve cell-type specificity",Yin et al.,Cell Systems,2025,10.1016/j.cels.2025.101302
+1/28/26,"Nucleosome fibre topology guides transcription factor binding to enhancers",O'Dwyer et al.,Nature,2024,10.1038/s41586-024-08333-9
+1/14/26,"Nona: A unifying multimodal masking framework for functional genomics",Nair et al.,bioRxiv,2025,10.1101/2025.11.06.687036
+12/16/25,"Multiple overlapping binding sites determine transcription factor occupancy",Khetan et al.,Nature,2025,10.1038/s41586-025-09472-3
+12/9/25,"Nucleosome fibre topology guides transcription factor binding to enhancers",O'Dwyer et al.,Nature,2025,10.1038/s41586-024-08333-9
+12/2/25,"Molecular grammars of predicted intrinsically disordered regions that span the human proteome",Ruff et al.,Cell,2025,10.1016/j.cell.2025.10.019
+11/11/25,"A single fiber view of the nucleosome organization in eukaryotic chromatin",Boltengagen et al.,Nucleic Acids Research,2025,10.1093/nar/gkad1098
+10/28/25,"Functional maps of a genomic locus reveal confinement of an enhancer by its target gene",Eder et al.,Science,2025,10.1126/science.ads6
+10/14/25,"Novel Strategy against AML by Rescuing Loss of Phase Separation of Pathogenic NPM1c",Zhu et al.,bioRxiv,2025,10.1101/2025.04.08.646961
+10/7/25,"DNA binding and mitotic phosphorylation protect polyglutamine proteins from assembly formation",Saad et al.,Cell,2025,10.1016/j.cell.2025.03.031
+9/23/25,"DNA-guided transcription factor interactions extend human gene regulatory code",Xie et al.,Nature,2025,10.1038/s41586-025-08844-z
+8/26/25,"CREsted: modeling genomic and synthetic cell type-specific enhancers across tissues and species",Kempynck et al.,bioRxiv,2025,10.1101/2025.04.02.646812
+8/19/25,"Principles and functional consequences of plasmid chromatinization in mammalian cells",Mallory et al.,bioRxiv,2025,10.1101/2025.05.27.656122
+8/5/25,"Divergence in a eukaryotic transcription factor’s co-TF dependence involves multiple intrinsically disordered regions",Snyder et al.,Nature Communications,2025,10.1038/s41467-025-59244-w
+7/29/25,"Systematic analysis of transcription factor combinatorial binding uncovers TEAD1 as an antagonist of tissue-specific transcription factors in human organogenesis",Garcia-Mora et al.,eLife,2025,10.7554/eLife.105338.1
 6/25/25,"A cloaked human stem-cell-derived neural graft capable of functional integration and immune evasion in rodent models",Pavan C et al.,Cell Stem Cell,2025,10.1016/j.stem.2025.03.008
 6/18/25,"Genomic analysis of 1,325 Camellia accessions sheds light on agronomic and metabolic traits for tea plant improvement",Kong W et al.,Nature Genetics,2025,10.1038/s41588-025-02135-z
 6/4/25,"Genome duplication in a long-term multicellularity evolution experiment",Tong K et al,Nature,2025,10.1038/s41586-025-08689-6
